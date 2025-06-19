@@ -1,5 +1,4 @@
 import React from 'react';
-import './BeforeAfter.css';
 
 const examples = [
   {
@@ -17,28 +16,34 @@ const examples = [
 ];
 
 const BeforeAfter = () => (
-  <section className="before-after">
-    <h2>Antes y Después</h2>
-    <p className="before-after-desc">
-      Vea la transformación de los vehículos con nuestros servicios profesionales de autolavado y detallado.
-    </p>
-    <div className="before-after-cards">
-      {examples.map((ex, idx) => (
-        <div className="before-after-card" key={idx}>
-          <div className="before-after-images">
-            <div className="before-img">
-              <span>Antes</span>
-              <img src={ex.before} alt="Antes" />
-            </div>
-            <div className="after-img">
-              <span>Después</span>
-              <img src={ex.after} alt="Después" />
+  <section className="bg-light py-5">
+    <div className="container">
+      <h2 className="display-6 fw-bold text-center mb-3">Antes y Después</h2>
+      <p className="lead text-center mb-4">
+        Vea la transformación de los vehículos con nuestros servicios profesionales de autolavado y detallado.
+      </p>
+      <div className="row g-4 justify-content-center">
+        {examples.map((ex, idx) => (
+          <div className="col-12 col-md-6 col-lg-5" key={idx}>
+            <div className="card shadow-sm h-100 border-0">
+              <div className="row g-0 align-items-center">
+                <div className="col-6 text-center p-2">
+                  <span className="badge bg-danger mb-2"><i className="bi bi-arrow-counterclockwise me-1"></i>Antes</span>
+                  <img src={ex.before} alt="Antes" className="img-fluid rounded-3 border" style={{height: 100, objectFit: 'cover'}} />
+                </div>
+                <div className="col-6 text-center p-2">
+                  <span className="badge bg-success mb-2"><i className="bi bi-arrow-clockwise me-1"></i>Después</span>
+                  <img src={ex.after} alt="Después" className="img-fluid rounded-3 border" style={{height: 100, objectFit: 'cover'}} />
+                </div>
+              </div>
+              <div className="card-body">
+                <h3 className="card-title h6 fw-bold mb-2"><i className="bi bi-stars me-2 text-warning"></i>{ex.title}</h3>
+                <p className="card-text mb-0">{ex.desc}</p>
+              </div>
             </div>
           </div>
-          <h3>{ex.title}</h3>
-          <p>{ex.desc}</p>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   </section>
 );

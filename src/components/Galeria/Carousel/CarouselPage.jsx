@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './CarouselPage.css';
 
 const images = [
   {
@@ -50,64 +49,94 @@ const images = [
 ];
 
 const CarouselPage = () => {
-  const [current, setCurrent] = useState(2); // Centrado en la imagen 3 como ejemplo
+  const [current, setCurrent] = useState(2);
   const img = images[current];
 
   return (
-    <main className="carousel-page">
-      <div className="carousel-breadcrumbs">
-        Inicio <span className="breadcrumb-sep">{'>'}</span> <b>Vista de Carrusel</b>
-      </div>
-      <h2 className="carousel-title">Galería de Servicios Premium</h2>
-      <p className="carousel-subtitle">
-        Explore nuestra colección de trabajos destacados. Deslice horizontalmente para ver cada imagen en detalle.
-      </p>
-      <div className="carousel-nav-row">
-        <button
-          className="carousel-nav-btn"
-          onClick={() => setCurrent((c) => Math.max(0, c - 1))}
-          disabled={current === 0}
-        >Anterior</button>
-        <span className="carousel-counter">{current + 1} de {images.length} imágenes</span>
-        <button
-          className="carousel-nav-btn"
-          onClick={() => setCurrent((c) => Math.min(images.length - 1, c + 1))}
-          disabled={current === images.length - 1}
-        >Siguiente</button>
-      </div>
-      <div className="carousel-main-img-box">
-        <img src={img.src} alt={img.title} className="carousel-main-img" />
-      </div>
-      <div className="carousel-info-box">
-        <div className="carousel-info-title">{img.title}</div>
-        <div className="carousel-info-desc">{img.desc}</div>
-        <div className="carousel-info-meta">
-          <span>📅 {img.date}</span>
-          <span>{img.views}</span>
-          <span>{img.comments}</span>
-          <span className="carousel-share">Compartir</span>
+    <div className="container-fluid bg-light min-vh-100 py-4">
+      <div className="container">
+        <nav aria-label="breadcrumb">
+          <ol className="breadcrumb bg-transparent px-0 mb-2">
+            <li className="breadcrumb-item">Inicio</li>
+            <li className="breadcrumb-item active" aria-current="page">Vista de Carrusel</li>
+          </ol>
+        </nav>
+        <h2 className="display-5 fw-bold text-center mb-2">Galería de Servicios Premium</h2>
+        <p className="lead text-center mb-4">
+          Explore nuestra colección de trabajos destacados. Deslice horizontalmente para ver cada imagen en detalle.
+        </p>
+        <div className="d-flex justify-content-between align-items-center mb-3">
+          <button
+            className="btn btn-dark px-4"
+            onClick={() => setCurrent((c) => Math.max(0, c - 1))}
+            disabled={current === 0}
+          >Anterior</button>
+          <span className="fw-medium">{current + 1} de {images.length} imágenes</span>
+          <button
+            className="btn btn-dark px-4"
+            onClick={() => setCurrent((c) => Math.min(images.length - 1, c + 1))}
+            disabled={current === images.length - 1}
+          >Siguiente</button>
         </div>
-      </div>
-      <div className="carousel-thumbs-row">
-        {images.map((im, idx) => (
-          <div
-            key={idx}
-            className={`carousel-thumb-box${idx === current ? ' active' : ''}`}
-            onClick={() => setCurrent(idx)}
-          >
-            <img src={im.src} alt={im.title} className="carousel-thumb-img" />
+        <div className="row justify-content-center mb-4">
+          <div className="col-12 col-md-10 col-lg-8">
+            <div className="bg-white rounded-4 shadow-sm p-2 d-flex justify-content-center align-items-center">
+              <img
+                src={img.src}
+                alt={img.title}
+                className="img-fluid rounded-4 w-100"
+                style={{ maxHeight: 400, objectFit: 'cover' }}
+              />
+            </div>
           </div>
-        ))}
-      </div>
-      <div className="carousel-cats-box">
-        <div className="carousel-cats-title">Categorías Relacionadas</div>
-        <div className="carousel-cats-row">
-          {img.categories.map((cat, i) => (
-            <span key={i} className="carousel-cat">{cat}</span>
+        </div>
+        <div className="row justify-content-center mb-4">
+          <div className="col-12 col-md-8 col-lg-6">
+            <div className="card border-0 shadow-sm mb-2">
+              <div className="card-body">
+                <h5 className="card-title fw-bold mb-2">{img.title}</h5>
+                <p className="card-text mb-3">{img.desc}</p>
+                <div className="d-flex flex-wrap align-items-center gap-3 text-secondary small">
+                  <span>📅 {img.date}</span>
+                  <span><i className="bi bi-eye"></i> {img.views}</span>
+                  <span><i className="bi bi-chat"></i> {img.comments}</span>
+                  <span className="text-primary fw-semibold" style={{ cursor: 'pointer' }}>Compartir</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="d-flex flex-nowrap overflow-auto gap-3 mb-4 pb-2 justify-content-center">
+          {images.map((im, idx) => (
+            <div
+              key={idx}
+              className={`border rounded-3 bg-white shadow-sm p-1 mx-1 ${idx === current ? 'border-primary border-3' : 'border-secondary border-1'}`}
+              style={{ width: 70, height: 70, cursor: 'pointer', flex: '0 0 auto', boxShadow: idx === current ? '0 0 0 0.2rem #e6f0ff' : undefined }}
+              onClick={() => setCurrent(idx)}
+            >
+              <img
+                src={im.src}
+                alt={im.title}
+                className="img-fluid rounded-2"
+                style={{ width: 64, height: 64, objectFit: 'cover' }}
+              />
+            </div>
           ))}
         </div>
+        <div className="row justify-content-center">
+          <div className="col-12 col-md-10 col-lg-8">
+            <div className="bg-white rounded-3 shadow-sm p-3">
+              <div className="fw-semibold mb-2">Categorías Relacionadas</div>
+              <div className="d-flex flex-wrap gap-2">
+                {img.categories.map((cat, i) => (
+                  <span key={i} className="badge bg-primary-subtle text-primary fw-semibold px-3 py-2 fs-6">{cat}</span>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </main>
+    </div>
   );
 };
 

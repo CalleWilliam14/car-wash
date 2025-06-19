@@ -9,6 +9,7 @@ import CallToAction from './components/Galeria/CallToAction'
 import Footer from './components/layout/Footer'
 import { Routes, Route } from 'react-router-dom';
 import CarouselPage from './components/Galeria/Carousel/CarouselPage';
+import MosaicPage from './components/Galeria/Mosaico/MosaicPage';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           </>
         } />
         <Route path="/carrusel" element={<CarouselPage />} />
+        <Route path="/mosaico" element={<MosaicPage />} />
       </Routes>
       <Footer />
     </>
