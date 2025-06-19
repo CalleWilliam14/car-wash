@@ -1,6 +1,11 @@
 import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import GalleryExplore from './components/GalleryExplore'
+import ServiceCategories from './components/ServiceCategories'
+import BeforeAfter from './components/BeforeAfter'
+import TeamSection from './components/TeamSection'
+import CallToAction from './components/CallToAction'
 import Footer from './components/Footer'
 
 function App() {
@@ -8,7 +13,11 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      {/* Aquí irán las demás secciones: galería, servicios, etc. */}
+      <GalleryExplore />
+      <ServiceCategories />
+      <BeforeAfter />
+      <CallToAction />
+      {/* Aquí irá la sección de llamada a la acción */}
       <Footer />
     </>
   )
