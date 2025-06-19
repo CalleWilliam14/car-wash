@@ -1,12 +1,12 @@
 import './App.css'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import GalleryExplore from './components/GalleryExplore'
-import ServiceCategories from './components/ServiceCategories'
-import BeforeAfter from './components/BeforeAfter'
-import TeamSection from './components/TeamSection'
-import CallToAction from './components/CallToAction'
-import Footer from './components/Footer'
+import Navbar from './components/layout/Navbar'
+import Hero from './components/Galeria/Hero'
+import GalleryExplore from './components/Galeria/GalleryExplore'
+import ServiceCategories from './components/Galeria/ServiceCategories'
+import BeforeAfter from './components/Galeria/BeforeAfter'
+import TeamSection from './components/Galeria/TeamSection'
+import CallToAction from './components/Galeria/CallToAction'
+import Footer from './components/layout/Footer'
 
 function App() {
   return (
