@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const services = [
   {
@@ -27,35 +28,38 @@ const services = [
   },
 ];
 
-const ServiceCategories = () => (
-  <section className="bg-white py-5">
-    <div className="container">
-      <h2 className="display-6 fw-bold text-center mb-3">Categorías de Servicios</h2>
-      <p className="lead text-center mb-4">
-        Explore nuestras diferentes categorías de servicios y vea ejemplos de nuestro trabajo en cada especialidad.
-      </p>
-      <div className="row g-4 justify-content-center">
-        {services.map((service, idx) => (
-          <div className="col-12 col-md-6 col-lg-4" key={idx}>
-            <div className="card h-100 shadow-sm border-0">
-              <img src={service.img} alt={service.title} className="card-img-top" style={{height: 150, objectFit: 'cover'}} />
-              <div className="card-body d-flex flex-column">
-                <h3 className="card-title h5 fw-bold mb-2">
-                  <i className={`bi ${service.icon} me-2 text-${service.color}`}></i>
-                  {service.title}
-                  <span className={`badge bg-${service.color} ms-2`}>{service.badge}</span>
-                </h3>
-                <p className="card-text mb-3">{service.desc}</p>
-                <button className={`btn btn-outline-${service.color} mt-auto w-100`}>
-                  <i className="bi bi-images me-2"></i>Ver Galería
-                </button>
+const ServiceCategories = () => {
+  const navigate = useNavigate();
+  return (
+    <section className="bg-white py-5">
+      <div className="container">
+        <h2 className="display-6 fw-bold text-center mb-3">Categorías de Servicios</h2>
+        <p className="lead text-center mb-4">
+          Explore nuestras diferentes categorías de servicios y vea ejemplos de nuestro trabajo en cada especialidad.
+        </p>
+        <div className="row g-4 justify-content-center">
+          {services.map((service, idx) => (
+            <div className="col-12 col-md-6 col-lg-4" key={idx}>
+              <div className="card h-100 shadow-sm border-0">
+                <img src={service.img} alt={service.title} className="card-img-top" style={{height: 150, objectFit: 'cover'}} />
+                <div className="card-body d-flex flex-column">
+                  <h3 className="card-title h5 fw-bold mb-2">
+                    <i className={`bi ${service.icon} me-2 text-${service.color}`}></i>
+                    {service.title}
+                    <span className={`badge bg-${service.color} ms-2`}>{service.badge}</span>
+                  </h3>
+                  <p className="card-text mb-3">{service.desc}</p>
+                  <button className={`btn btn-outline-${service.color} mt-auto w-100`} onClick={() => navigate('/categoria')}>
+                    <i className="bi bi-images me-2"></i>Ver Galería
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
-    </div>
-  </section>
-);
+    </section>
+  );
+};
 
 export default ServiceCategories; 
