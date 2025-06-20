@@ -1,1 +1,58 @@
+/* ========================================
+   ESTILOS BASE - CAR WASH APP
+   ======================================== */
 
+/* Importar variables de colores */
+@import './styles/variables.css';
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  background: var(--color-background);
+  color: var(--color-text-primary);
+  line-height: 1.6;
+}
+
+/* Enlaces */
+a {
+  color: var(--color-link);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Botones básicos */
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+/* Inputs básicos */
+input, textarea, select {
+  font-family: inherit;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px 12px;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-text-primary);
+  margin-bottom: 0.5rem;
+}
+
+/* Párrafos */
+p {
+  color: var(--color-text-secondary);
+  margin-bottom: 1rem;
+}
