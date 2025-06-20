@@ -22,6 +22,9 @@ const Navbar = () => (
           <li className="nav-item"><Link className="nav-link" to="/equipo"><i className="bi bi-people me-1"></i>Nuestro Equipo</Link></li>
           <li className="nav-item"><Link className="nav-link" to="/proceso"><i className="bi bi-gear me-1"></i>Proceso</Link></li>
           <li className="nav-item"><Link className="nav-link" to="/ubicacion"><i className="bi bi-geo-alt me-1"></i>Ubicación</Link></li>
+          <li className="nav-item"><Link className="nav-link" to="/comentarios"> <i className="bi bi-chat-left-text me-1"></i>Comentarios</Link></li>
+          <li className="nav-item"><Link className="nav-link" to="/realizamos"> <i className="bi bi-tools me-1"></i>Realizamos</Link></li>
+          <li className="nav-item"><Link className="nav-link" to="/estado"> <i className="bi bi-speedometer2 me-1"></i>Estado</Link></li>
         </ul>
         <div className="d-flex gap-2">
           <button className="btn btn-outline-light fw-semibold" type="button">

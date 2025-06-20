@@ -1,0 +1,192 @@
+h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+p {
+  text-align: center;
+  color: #555;
+}
+
+/* Filtros */
+.filtros {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.btn-filtro {
+  padding: 10px 16px;
+  border: none;
+  background-color: #ccc;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-filtro:hover {
+  background-color: #aaa;
+}
+
+
+
+
+.card-comentario {
+  background-color: #fefefe;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+
+.acciones {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Formulario */
+.form-comentario {
+  background-color: #fefefe;
+  margin: 30px auto 0 auto;
+  max-width: 700px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-comentario input[type="text"],
+.form-comentario select,
+.form-comentario textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 14px;
+}
+
+.form-comentario textarea {
+  height: 100px;
+  resize: none;
+}
+
+.form-comentario .estrellas button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: gold;
+}
+
+.form-comentario button[type="submit"] {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-comentario button[type="submit"]:hover {
+  background-color: #333;
+}
+
+.card-comentario {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 12px;
+  width: 48%;
+  transition: all 0.3s ease;
+  background-color: #fff;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-comentario.expandida {
+  width: 100%;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+
+.acciones {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.btn-responder {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.form-respuesta {
+  margin-top: 10px;
+}
+
+.form-respuesta textarea {
+  width: 100%;
+  resize: vertical;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.form-respuesta button {
+  margin-top: 8px;
+  padding: 6px 12px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.comentarios-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.card-comentario {
+  width: calc(40% - 8px); /* Para que entren 2 por fila con espacio */
+  transition: all 0.3s ease;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 1px 5px rgba(0, 0, 1, 0.4);
+}
+
+/* Cuando se responde, se expande al 100% */
+.card-comentario.expandida {
+  width: 100%;
+}
+
+.filtros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+

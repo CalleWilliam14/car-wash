@@ -1,0 +1,299 @@
+[
+  {
+    "id": 1,
+    "nombre": "Lavado Básico Exterior",
+    "descripcion": "El Lavado Básico Exterior es una opción rápida y eficiente pensada para quienes desean mantener su vehículo limpio y presentable sin invertir demasiado tiempo...",
+    "precio": 35,
+    "categoria": "Lavados Básicos",
+    "rating": 4,
+    "etiquetas": ["Más Popular"],
+    "imagen": "assets/imagenes/descarga.jpeg",
+    "incluye": [
+      "Lavado con agua a presión para remover suciedad superficial y restos adheridos a la carrocería",
+      "Aplicación de jabón espumoso biodegradable que ayuda a aflojar residuos sin dañar la pintura",
+      "Enjuague detallado para eliminar completamente el jabón y residuos",
+      "Secado manual con paños de microfibra para evitar rayones y dejar un acabado limpio y sin marcas"
+    ],
+    "beneficios": [
+      "Servicio accesible y rápido que permite mantener el vehículo limpio con frecuencia sin afectar el presupuesto",
+      "Ayuda a preservar el color y brillo de la pintura al evitar la acumulación de polvo, tierra y otros contaminantes",
+      "Reduce el desgaste de la pintura y facilita inspecciones visuales al mantener la superficie del auto limpia",
+      "Mejora la presentación del vehículo para su uso diario o eventualidades como reuniones o viajes cortos"
+    ],
+    "recomendaciones": [
+      "Se recomienda realizar este servicio al menos dos veces por semana si el vehículo se utiliza en zonas con mucho tráfico o polvo",
+      "Evitar estacionar bajo árboles o zonas expuestas a contaminantes para prolongar el efecto del lavado",
+      "Puede complementarse con un encerado mensual para mejorar la protección de la pintura",
+      "Ideal antes de llevar el auto a una inspección visual o evento especial para asegurar una buena apariencia"
+    ],
+    "duracion": "15 a 20 minutos"
+  },
+  {
+    "id": 2,
+    "nombre": "Lavado Premium con Encerado",
+    "descripcion": "Este servicio combina un lavado exterior minucioso con la aplicación de una cera protectora de alta calidad...",
+    "precio": 130,
+    "categoria": "Lavados Premium",
+    "rating": 5,
+    "etiquetas": [],
+    "imagen": "assets/imagenes/LEncerado.jpg",
+    "incluye": [
+      "Lavado exterior detallado con productos de limpieza especiales para eliminar suciedad adherida",
+      "Aplicación de cera protectora con polímeros que sellan la pintura",
+      "Limpieza superficial de llantas y guardabarros",
+      "Pulido ligero para resaltar el brillo de la pintura",
+      "Secado con paños suaves de microfibra"
+    ],
+    "beneficios": [
+      "Brillo intenso y duradero en la carrocería",
+      "Protección contra rayos UV, lluvia ácida, excremento de aves y otros elementos agresivos",
+      "Reducción de adherencia de polvo y agua, facilitando la limpieza futura",
+      "Mejora visual general del vehículo, ideal para presentaciones o ventas"
+    ],
+    "recomendaciones": [
+      "No lavar el vehículo durante al menos 24 horas después del encerado para permitir que el producto selle correctamente",
+      "Evitar exponer el vehículo a lluvias o ambientes sucios inmediatamente después del servicio",
+      "Realizar este servicio cada 3 a 4 semanas para mantener el efecto protector",
+      "Complementar con limpieza interior para una presentación completa"
+    ],
+    "duracion": "60 a 75 minutos"
+  },
+  {
+    "id": 3,
+    "nombre": "Limpieza Profunda de Interiores",
+    "descripcion": "Este servicio está diseñado para renovar por completo el ambiente interior del vehículo...",
+    "precio": 150,
+    "categoria": "Interiores",
+    "rating": 4,
+    "etiquetas": [],
+    "imagen": "assets/imagenes/LInterior.jpg",
+    "incluye": [
+      "Aspirado general de asientos, alfombras, y espacios de difícil acceso",
+      "Desmanchado manual con productos específicos para tapicería y telas",
+      "Limpieza de techos y paneles con paños húmedos y desinfectantes",
+      "Cepillado de áreas con acumulación de suciedad",
+      "Neutralización de olores en superficies absorbentes"
+    ],
+    "beneficios": [
+      "Ambiente interior más saludable y libre de contaminantes",
+      "Eliminación de manchas visibles en alfombras y asientos",
+      "Mayor confort para el conductor y pasajeros, especialmente en viajes largos",
+      "Ideal para personas alérgicas o con sensibilidad a olores fuertes"
+    ],
+    "recomendaciones": [
+      "Evitar usar el vehículo durante 30 a 60 minutos después del servicio para permitir el secado completo",
+      "Colocar tapetes de goma para prevenir futuras manchas en alfombras",
+      "Evitar consumir alimentos dentro del vehículo para mantenerlo limpio por más tiempo",
+      "Complementar con desinfección de ozono si se busca una sanitización más profunda"
+    ],
+    "duracion": "75 a 90 minutos"
+  },
+  {
+    "id": 4,
+    "nombre": "Tratamiento Cerámico",
+    "descripcion": "Este servicio premium aplica un recubrimiento cerámico de última generación sobre la pintura del vehículo...",
+    "precio": 200,
+    "categoria": "Tratamientos Especiales",
+    "rating": 5,
+    "etiquetas": ["Nuevo"],
+    "imagen": "assets/imagenes/LCeramico.jpg",
+    "incluye": [
+      "Lavado previo profundo de toda la carrocería",
+      "Descontaminación de la pintura con productos especiales y clay bar",
+      "Aplicación de recubrimiento cerámico con microfibra profesional",
+      "Curado y sellado de la capa protectora",
+      "Pulido final para maximizar el brillo y uniformidad"
+    ],
+    "beneficios": [
+      "Protección efectiva contra rayos UV, excremento de aves, resina de árboles y otros contaminantes agresivos",
+      "Brillo espejo y apariencia renovada por mucho más tiempo",
+      "Facilita la limpieza futura al reducir la adhesión de la suciedad",
+      "Durabilidad de hasta 12 meses con cuidados mínimos"
+    ],
+    "recomendaciones": [
+      "No lavar el vehículo durante los primeros 5 días tras la aplicación para asegurar el curado completo",
+      "Evitar exposición directa al sol en las primeras 48 horas",
+      "Repetir el tratamiento anualmente para conservar el nivel de protección",
+      "Combinar con pulido de pintura previo si hay imperfecciones visibles"
+    ],
+    "duracion": "2 a 3 horas"
+  },
+  {
+    "id": 5,
+    "nombre": "Pulido y Corrección de Pintura",
+    "descripcion": "Este servicio profesional elimina micro-rayones, remolinos, marcas de agua, oxidación y otros defectos superficiales de la pintura...",
+    "precio": 300,
+    "categoria": "Tratamientos Especiales",
+    "rating": 4,
+    "etiquetas": [],
+    "imagen": "assets/imagenes/LPintura.jpg",
+    "incluye": [
+      "Evaluación detallada del estado de la pintura",
+      "Lavado y descontaminación profunda del vehículo",
+      "Pulido en varias etapas con pulidores abrasivos y selladores",
+      "Uso de máquinas rotativas o orbitales según necesidad",
+      "Aplicación de sellador o cera final para proteger la superficie"
+    ],
+    "beneficios": [
+      "Restaura el color y el brillo original del auto",
+      "Elimina visualmente los rayones ligeros y defectos de lavados anteriores",
+      "Mejora significativamente la estética y uniformidad del acabado",
+      "Ideal como paso previo a un tratamiento cerámico o encerado avanzado"
+    ],
+    "recomendaciones": [
+      "Evitar el lavado automático posterior, ya que puede dañar el pulido",
+      "Mantener la pintura protegida con cera o recubrimiento cerámico",
+      "Revisar cada 6 meses si el vehículo está expuesto constantemente al sol",
+      "Ideal antes de una venta para aumentar el atractivo visual del auto"
+    ],
+    "duracion": "2.5 a 3 horas"
+  },
+  {
+    "id": 6,
+    "nombre": "Limpieza de Motor",
+    "descripcion": "Servicio diseñado para eliminar la suciedad, grasa y residuos acumulados en el compartimiento del motor...",
+    "precio": 100,
+    "categoria": "Tratamientos Especiales",
+    "rating": 4,
+    "etiquetas": [],
+    "imagen": "assets/imagenes/LMotor.jpg",
+    "incluye": [
+      "Cobertura y protección de componentes eléctricos sensibles",
+      "Aplicación de productos desengrasantes biodegradables",
+      "Cepillado de áreas con acumulación de grasa",
+      "Enjuague cuidadoso con presión controlada",
+      "Secado con aire comprimido o paños especiales"
+    ],
+    "beneficios": [
+      "Facilita la inspección visual de fugas o daños",
+      "Mejora la imagen profesional del vehículo, especialmente en ventas",
+      "Evita la acumulación de grasa que puede generar malos olores o fuego",
+      "Puede ayudar a detectar problemas mecánicos tempranos"
+    ],
+    "recomendaciones": [
+      "No encender el motor inmediatamente después del servicio",
+      "Revisar que no haya humedad en zonas sensibles antes de conducir",
+      "Se recomienda realizar cada 6 meses o después de viajes por caminos polvorientos",
+      "Evitar realizar este servicio en días de lluvia para facilitar el secado"
+    ],
+    "duracion": "30 a 40 minutos"
+  },
+  {
+    "id": 7,
+    "nombre": "Lavado Express",
+    "descripcion": "Una solución rápida para limpiar la superficie exterior del vehículo en menos de 20 minutos...",
+    "precio": 25,
+    "categoria": "Lavados Básicos",
+    "rating": 3,
+    "etiquetas": ["Económico"],
+    "imagen": "assets/imagenes/LExpress.jpeg",
+    "incluye": [
+      "Aplicación de jabón neutro con brocha suave o paño",
+      "Enjuague con agua a presión",
+      "Secado rápido con paño absorbente",
+      "Revisión rápida de cristales y espejos"
+    ],
+    "beneficios": [
+      "Servicio rápido y económico para mantener el vehículo limpio",
+      "Evita acumulación de suciedad excesiva entre lavados",
+      "Ideal para limpiezas previas a viajes cortos o citas rápidas",
+      "Reduce el tiempo de espera comparado con otros servicios"
+    ],
+    "recomendaciones": [
+      "No sustituye lavados completos, especialmente si hay manchas o barro",
+      "Recomendado para autos con poco uso o recién lavados",
+      "No aplicar en días de lluvia intensa",
+      "Usar entre servicios premium como mantenimiento básico"
+    ],
+    "duracion": "15 a 20 minutos"
+  },
+  {
+    "id": 8,
+    "nombre": "Desinfección con Ozono",
+    "descripcion": "Este tratamiento utiliza ozono, un potente agente desinfectante natural, para eliminar virus, bacterias, ácaros y olores...",
+    "precio": 80,
+    "categoria": "Interiores",
+    "rating": 5,
+    "etiquetas": ["Recomendado"],
+    "imagen": "assets/imagenes/LDesinfeccion.jpg",
+    "incluye": [
+      "Aspirado básico previo para preparar el interior",
+      "Generación de ozono en el interior del vehículo durante 20 a 30 minutos",
+      "Sellado temporal del habitáculo para asegurar la acción del gas",
+      "Ventilación final para liberar el ozono restante"
+    ],
+    "beneficios": [
+      "Elimina virus, bacterias, hongos y otros patógenos sin productos químicos",
+      "Neutraliza olores persistentes de cigarro, comida o mascotas",
+      "Mejora la calidad del aire en el interior del vehículo",
+      "Seguro y respetuoso con el medio ambiente"
+    ],
+    "recomendaciones": [
+      "Esperar al menos 1 hora después del tratamiento antes de volver a utilizar el vehículo",
+      "Realizar cada 1 a 2 meses si se transportan mascotas o niños frecuentemente",
+      "Complementar con limpieza profunda de interiores para mayor eficacia",
+      "Mantener ventanas ligeramente abiertas si hay humedad posterior"
+    ],
+    "duracion": "40 a 50 minutos"
+  },
+  {
+    "id": 9,
+    "nombre": "Lavado Full Car",
+    "descripcion": "Este servicio integral combina una limpieza exterior detallada con una limpieza interior básica...",
+    "precio": 180,
+    "categoria": "Lavados Premium",
+    "rating": 5,
+    "etiquetas": [],
+    "imagen": "assets/imagenes/LFull.jpg",
+    "incluye": [
+      "Lavado exterior completo y detallado con agua a presión y jabón espumoso",
+      "Secado manual con microfibra para evitar rayones",
+      "Limpieza de llantas, guardabarros y cristales",
+      "Aspirado general del interior: alfombras, asientos, maletero y piso",
+      "Limpieza superficial de tableros y puertas"
+    ],
+    "beneficios": [
+      "Ahorro de tiempo al combinar lavado interior y exterior",
+      "Mejora notable de la presentación general del vehículo",
+      "Ideal para mantener el coche listo para uso diario o fines de semana",
+      "Buen equilibrio entre detalle y velocidad"
+    ],
+    "recomendaciones": [
+      "Realizar cada 15 días para mantener una buena higiene y estética",
+      "Complementar con cera para proteger la pintura exterior",
+      "Evitar ensuciar el interior comiendo dentro del vehículo",
+      "Usar tapetes de goma y ambientadores para prolongar la limpieza"
+    ],
+    "duracion": "75 a 90 minutos"
+  },
+  {
+    "id": 10,
+    "nombre": "Interior Premium",
+    "descripcion": "Servicio de limpieza profunda y meticulosa que abarca todas las superficies del interior del vehículo...",
+    "precio": 160,
+    "categoria": "Interiores",
+    "rating": 5,
+    "etiquetas": [],
+    "imagen": "assets/imagenes/LInteriorP.jpg",
+    "incluye": [
+      "Aspirado profundo de todo el habitáculo y compartimientos",
+      "Limpieza con vapor en asientos, alfombras y tapizados",
+      "Desinfección de superficies plásticas, metálicas y de cuero",
+      "Limpieza de techo y ventilaciones",
+      "Aplicación de protector para cuero o tela"
+    ],
+    "beneficios": [
+      "Ambiente interior renovado y libre de gérmenes",
+      "Cuidado detallado de materiales delicados como cuero o gamuza",
+      "Eliminación de malos olores, manchas y suciedad acumulada",
+      "Sensación de limpieza comparable a vehículo nuevo"
+    ],
+    "recomendaciones": [
+      "Evitar comer dentro del vehículo para conservar la limpieza",
+      "Complementar con desinfección por ozono si hay mascotas o alergias",
+      "Repetir cada 2 a 3 meses para mantener un ambiente saludable",
+      "Utilizar fundas protectoras en asientos si se transportan niños o mascotas"
+    ],
+    "duracion": "90 minutos"
+  }
+]

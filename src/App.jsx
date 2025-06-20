@@ -26,6 +26,11 @@ import Calendar from './pages/Calendar'
 import Booking from './pages/Booking'
 import Payment from './pages/Payment'
 import Confirmation from './pages/Confirmation'
+import ComentariosPage from './components/Comentarios/ComentariosPage'
+import EstadoLavado from './components/EstadoLavado/EstadoLavado'
+import ServiciosPage from './components/Servicios/ServiciosPage'
+import DetalleEstado from './components/EstadoLavado/DetalleEstado'
+import ServicioDetalle from './components/Servicios/ServicioDetalle'
 
 function App() {
   return (
@@ -58,6 +63,12 @@ function App() {
         <Route path="/payment" element={<Payment />} />
         <Route path="/confirmation" element={<Confirmation />} />
         <Route path="/calendar" element={<Calendar />} />
+        <Route path='/comentarios' element={<ComentariosPage/>}/>
+        <Route path='/estado' element={<EstadoLavado/>}/>
+        <Route path='/estado/:id' element={<DetalleEstado/>}/>
+        <Route path='/realizamos' element={<ServiciosPage/>}/>
+        <Route path='/realizamos/:id' element={<ServicioDetalle/>}/>
+        
       </Routes>
       <Footer />
       <ChatBot />
