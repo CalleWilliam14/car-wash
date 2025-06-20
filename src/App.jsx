@@ -21,6 +21,12 @@ import EcologicalProducts from './pages/ecological-products/EcologicalProducts'
 import ProductDetails from './pages/product-details/ProductDetails'
 import ProductComparision from './pages/product-comparision/ProductComparision';
 
+import ChatBot from './components/ChatBot/ChatBot';
+import Calendar from './pages/Calendar'
+import Booking from './pages/Booking'
+import Payment from './pages/Payment'
+import Confirmation from './pages/Confirmation'
+
 function App() {
   return (
     <>
@@ -47,8 +53,14 @@ function App() {
         <Route path='/productos-ecologicos' element={<EcologicalProducts />} />
         <Route path='/productos-ecologicos/:id' element={<ProductDetails />} />
         <Route path='/comparar-productos' element={<ProductComparision />} />
+        <Route path="/reserva" element={<Calendar />} />
+        <Route path="/booking" element={<Booking />} />
+        <Route path="/payment" element={<Payment />} />
+        <Route path="/confirmation" element={<Confirmation />} />
+        <Route path="/calendar" element={<Calendar />} />
       </Routes>
       <Footer />
+      <ChatBot />
     </>
   )
 }
