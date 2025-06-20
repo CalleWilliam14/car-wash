@@ -122,14 +122,14 @@ const DetallesDeLocalizacionPage = () => {
             <div className="card shadow-sm mb-4">
               <div className="card-body p-4">
                 <h5 className="card-title fw-bold mb-3"><i className="bi bi-image-fill me-2 text-primary"></i>Nuestra Fachada</h5>
-                <img src="https://via.placeholder.com/400x300.png?text=Entrada+AquaShine" alt="Fachada del Car Wash" className="img-fluid rounded mb-2" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1ggxcxnswdA4tXAJVxhpm7eo4IDzWKKLfFA&s" alt="Fachada del Car Wash" className="img-fluid rounded mb-2" />
                 <p className="text-secondary small">Nuestra fachada es fácilmente reconocible por su moderno diseño y colores corporativos.</p>
               </div>
             </div>
             <div className="card shadow-sm">
               <div className="card-body p-4">
                 <h5 className="card-title fw-bold mb-3"><i className="bi bi-camera-fill me-2 text-primary"></i>Vista desde la Avenida</h5>
-                <img src="https://via.placeholder.com/400x300.png?text=Vista+desde+la+calle" alt="Vista desde la avenida" className="img-fluid rounded mb-2" />
+                <img src="https://www.opinion.com.bo/asset/thumbnail,992,558,center,center/media/opinion/images/2022/11/08/2022110800135545793.jpg" alt="Vista desde la avenida" className="img-fluid rounded mb-2" />
               </div>
             </div>
           </div>

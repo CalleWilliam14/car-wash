@@ -14,49 +14,49 @@ const images = [
     desc: 'Lavado exterior completo con especial atención a las llantas y parachoques.',
     date: '15 mayo, 2023',
     category: 'Lavado Básico',
-    img: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=400&q=80',
+    img: 'https://blog.napacanada.com/wp-content/uploads/2024/05/how-often-should-you-wash-your-car-a-quelle-frequence-devez-vous-laver-votre-voiture.jpg',
   },
   {
     title: 'SUV Ejecutivo',
     desc: 'Lavado exterior con limpieza de vidrios y tratamiento especial para rines.',
     date: '2 junio, 2023',
     category: 'Lavado Básico',
-    img: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80',
+    img: 'https://vcarecarwash.com.au/cdn/shop/products/vcarefoamwash_vac_front_900x.jpg?v=1658700660',
   },
   {
     title: 'Camioneta Pickup',
     desc: 'Lavado completo con especial atención a la caja y zonas con barro.',
     date: '28 mayo, 2023',
     category: 'Lavado Básico',
-    img: 'https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80',
+    img: 'https://sicamoustruckwash.com/wp-content/uploads/2023/02/Washing-Truck-Banner-2.jpg',
   },
   {
     title: 'Hatchback Compacto',
     desc: 'Lavado exterior con especial atención a los detalles de la carrocería.',
     date: '10 junio, 2023',
     category: 'Lavado Básico',
-    img: 'https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=400&q=80',
+    img: 'https://marvel-b1-cdn.bc0a.com/f00000000270514/s25180.pcdn.co/wp-content/uploads/2017/06/iStock-489665754.jpg',
   },
   {
     title: 'Coupé Deportivo',
     desc: 'Lavado dedicado con productos especiales para pintura metalizada.',
     date: '5 junio, 2023',
     category: 'Lavado Básico',
-    img: 'https://images.unsplash.com/photo-1511918984145-48de785d4c4e?auto=format&fit=crop&w=400&q=80',
+    img: 'https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2FzaCUyMGNhcnxlbnwwfHwwfHx8MA%3D%3D',
   },
   {
     title: 'Minivan Familiar',
     desc: 'Lavado exterior completo con limpieza de puertas corredizas.',
     date: '20 mayo, 2023',
     category: 'Lavado Básico',
-    img: 'https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=400&q=80',
+    img: 'https://cdn.prod.website-files.com/6572ef9d48da7c1e83f6ced4/6602c514eee2904b87c8e73a_EverWash%20and%20Car%20IQ%20Announce%20Partnership%20to%20Bring%20Autonomous%20Payments%20to%20Car%20Washes.jpg',
   },
 ];
 
 const suggestions = [
   {
     title: 'Lavado Premium',
-    img: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=400&q=80',
+    img: 'https://osren.com/blog/wp-content/uploads/2022/05/3.-CleaningDrain.jpg',
   },
 ];
 

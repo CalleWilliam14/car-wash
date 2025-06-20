@@ -4,14 +4,14 @@ import { useNavigate } from 'react-router-dom';
 const examples = [
   {
     title: 'Detalle Completo - BMW Serie 3',
-    before: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=400&q=80',
-    after: 'https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=400&q=80',
+    before: 'https://www.shutterstock.com/image-photo/modern-black-automobile-before-after-600nw-2204713255.jpg',
+    after: 'https://www.shutterstock.com/image-photo/modern-black-automobile-before-after-600nw-2204713255.jpg',
     desc: 'Transformación completa con nuestro servicio de detallado premium, incluyendo pulido de carrocería y tratamiento cerámico.',
   },
   {
     title: 'Limpieza Interior - SUV Familiar',
-    before: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80',
-    after: 'https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80',
+    before: 'https://www.shutterstock.com/image-photo/car-wash-service-before-after-260nw-1411309079.jpg',
+    after: 'https://www.shutterstock.com/image-photo/car-wash-service-before-after-260nw-1411309079.jpg',
     desc: 'Renovación completa del interior con limpieza profunda de tapicería, tratamiento de cuero y desinfección.',
   },
 ];

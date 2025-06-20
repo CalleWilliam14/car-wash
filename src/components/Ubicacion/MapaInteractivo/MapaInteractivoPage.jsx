@@ -41,7 +41,7 @@ const MapaInteractivoPage = () => {
             <div className="card border-0 shadow-sm">
               <div className="card-body">
                 <div className="fw-bold mb-2"><i className="bi bi-building me-2"></i>Nuestras instalaciones</div>
-                <img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=400&q=80" alt="Instalaciones Carwash" className="img-fluid rounded mb-2" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLHTNtXmqw-P7eedrwYtLEYImiPW42gQ-1qQ&s" alt="Instalaciones Carwash" className="img-fluid rounded mb-2" />
                 <a href="#" className="small d-block mb-2">Ver más fotos</a>
                 <ul className="list-unstyled mb-0">
                   <li><i className="bi bi-check-circle text-success me-2"></i>5 bahías de lavado</li>

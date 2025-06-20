@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const images = [
   {
-    src: 'https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=800&q=80',
+    src: 'https://sergioescobar.cl/wp-content/uploads/2020/12/Deja-tu-auto-como-nuevo.jpg',
     title: 'Pulido Profesional - Audi R8',
     desc: 'Este Audi R8 recibió nuestro tratamiento de pulido profesional de tres etapas, eliminando micro-rayones y devolviendo un acabado espejo a la pintura. El proceso incluye compuesto de corte, pulido fino y sellado cerámico para una protección duradera.',
     date: '15 de octubre, 2023',
@@ -11,7 +11,7 @@ const images = [
     categories: ['Pulido Profesional', 'Autos Deportivos', 'Tratamientos Cerámicos', 'Acabados Premium', 'Antes y Después'],
   },
   {
-    src: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=800&q=80',
+    src: 'https://media.istockphoto.com/id/1800033825/es/foto/limpiar-a-mano-el-interior-del-coche-con-una-toalla-de-microfibra.jpg?s=612x612&w=0&k=20&c=b_N-yRddmGLcTe3Q3lgFG04oZCzIS_BjlSS-xIqfU7g=',
     title: 'Limpieza Interior - SUV Familiar',
     desc: 'Renovación completa del interior con limpieza profunda de tapicería, tratamiento de cuero y desinfección.',
     date: '10 de octubre, 2023',
@@ -20,7 +20,7 @@ const images = [
     categories: ['Limpieza Interior', 'SUV', 'Familiares'],
   },
   {
-    src: 'https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=800&q=80',
+    src: 'https://e-carwash.com/wp-content/uploads/2024/03/encerado-1024x683.jpg',
     title: 'Encerado Premium - BMW Serie 3',
     desc: 'Aplicación de cera premium para un brillo intenso y protección contra los elementos.',
     date: '5 de octubre, 2023',
@@ -29,7 +29,7 @@ const images = [
     categories: ['Encerado', 'BMW', 'Acabados Premium'],
   },
   {
-    src: 'https://images.unsplash.com/photo-1511918984145-48de785d4c4e?auto=format&fit=crop&w=800&q=80',
+    src: 'https://www.perupymes.com/img/noticias/dbede-mark-vii-carwash-blog-1024x512.png',
     title: 'Lavado Exterior - Ford Mustang',
     desc: 'Lavado exterior completo con espuma activa y secado a mano.',
     date: '1 de octubre, 2023',
@@ -38,7 +38,7 @@ const images = [
     categories: ['Lavado Exterior', 'Ford', 'Autos Deportivos'],
   },
   {
-    src: 'https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=800&q=80',
+    src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEpp7YyHONZqZvKqqsSxuqL0LDyZg7zlrtSQ&s',
     title: 'Tratamiento Cerámico - Tesla Model S',
     desc: 'Protección cerámica avanzada para un acabado duradero y fácil de limpiar.',
     date: '28 de septiembre, 2023',

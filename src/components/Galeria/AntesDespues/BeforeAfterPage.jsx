@@ -15,7 +15,7 @@ const examples = [
     after: '',
     desc: 'Transformación de SUV Mercedes con nuestro servicio premium.',
     service: 'Lavado Premium',
-    img: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80',
+    img: 'https://www.rt5.co/wp-content/uploads/2018/02/car-wash-before-after.jpg',
   },
   {
     title: 'Detallado Interior - Sedan BMW',
@@ -23,7 +23,7 @@ const examples = [
     after: '',
     desc: 'Interior de BMW restaurado a estado de fábrica.',
     service: 'Detallado Interior',
-    img: 'https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80',
+    img: 'https://preview.redd.it/should-i-wash-my-car-v0-o54b6ojmubte1.jpeg?width=1179&format=pjpg&auto=webp&s=39c699286bf9314d7e3d7e2f833a9a26ae71196d',
   },
   {
     title: 'Pulido y Encerado - Deportivo Audi',
@@ -31,7 +31,7 @@ const examples = [
     after: '',
     desc: 'Brillo y protección para Audi deportivo.',
     service: 'Pulido y Encerado',
-    img: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=400&q=80',
+    img: 'https://cdn.prod.website-files.com/6612143a748f5c1dc2bf5e08/6612143a748f5c1dc2bf60ab_Ceramic%20Coating%20Before%20and%20After.webp',
   },
   {
     title: 'Limpieza de Llantas - Camioneta Ford',
@@ -39,7 +39,7 @@ const examples = [
     after: '',
     desc: 'Llantas y rines impecables en Ford Pickup.',
     service: 'Limpieza Especializada',
-    img: 'https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=400&q=80',
+    img: 'https://preview.redd.it/e8a87p4ukrk41.jpg?width=640&crop=smart&auto=webp&s=8c06b0b0b9d1de97da1d559bb22074189c2955a3',
   },
 ];
 

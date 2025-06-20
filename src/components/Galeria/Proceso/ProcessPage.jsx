@@ -4,37 +4,37 @@ const steps = [
   {
     title: 'Inspección Inicial',
     desc: 'Evaluamos minuciosamente el estado del vehículo, identificando áreas que requieren atención especial y personalizando el proceso de limpieza según las necesidades específicas.',
-    img: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80',
+    img: 'https://s25180.pcdn.co/wp-content/uploads/2018/03/iStock-497228065.jpg',
     subtasks: ['Inspección de carrocería', 'Evaluación de interior', 'Documentación digital'],
   },
   {
     title: 'Pre-lavado y Enjuague',
     desc: 'Aplicamos un pre-lavado espumante para ablandar la suciedad y contaminantes superficiales, seguido de un enjuague para eliminar partículas antes del lavado manual.',
-    img: 'https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80',
+    img: 'https://dtaillab.com/cdn/shop/articles/PRE_WASH_PRE-LAVAGE_PRE-SOAK_TRAFFIC_FILM_REMOVAL.webp?v=1674677629&width=2048',
     subtasks: ['Aplicación de espuma activa', 'Enjuague a presión controlada', 'Eliminación de contaminantes'],
   },
   {
     title: 'Lavado Manual Detallado',
     desc: 'Realizamos un lavado manual meticuloso utilizando productos premium y técnica de dos cubetas para evitar micro-rayones, prestando especial atención a cada detalle del vehículo.',
-    img: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=400&q=80',
+    img: 'https://tiendakarcher.pe/wp-content/uploads/2024/02/autolavado-karcher.jpg',
     subtasks: ['Técnica de lavado con microfibra', 'Limpieza especializada de llantas', 'Atención a detalles específicos'],
   },
   {
     title: 'Secado y Preparación',
     desc: 'Utilizamos toallas de microfibra de alta calidad y sopladores de aire para un secado perfecto sin marcas de agua, preparando la superficie para los tratamientos posteriores.',
-    img: '',
+    img: 'https://washappcar.com/wp-content/uploads/2025/03/5-auto.webp',
     subtasks: ['Secado con microfibra premium', 'Secado con soplador de precisión', 'Inspección post secado'],
   },
   {
     title: 'Pulido y Protección',
     desc: 'Aplicamos tratamientos de pulido para eliminar imperfecciones menores y restaurar el brillo original, seguido de cera o sellador que protegen la pintura por meses.',
-    img: '',
+    img: 'https://dercocenter-api.s3.us-east-1.amazonaws.com/images/contents/2021-08-25-car-detailing.jpg',
     subtasks: ['Pulido con máquina orbital', 'Aplicación de cera premium', 'Sellado cerámico avanzado'],
   },
   {
     title: 'Detalles Finales e Inspección',
     desc: 'Concluimos el proceso con una atención meticulosa a los detalles finales como cristales, neumáticos y molduras, seguido de una inspección exhaustiva para garantizar resultados perfectos.',
-    img: '',
+    img: 'https://cdn-ds.com/blogs-media/sites/181/2023/10/16124352/Mechanic-inspecting-the-body-panel-of-a-vehicle_A_b.jpg',
     subtasks: ['Acondicionamiento de neumáticos', 'Limpieza de cristales', 'Inspección final de calidad'],
   },
 ];

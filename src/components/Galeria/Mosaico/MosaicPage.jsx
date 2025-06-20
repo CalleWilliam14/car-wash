@@ -3,67 +3,67 @@ import React, { useState } from 'react';
 const categories = ['Todos', 'Exterior', 'Interior', 'Detallado', 'Antes/Después'];
 const images = [
   {
-    src: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80',
+    src: 'https://www.allservy.com/web/image/8120/E5k4rdUMgO.jpg',
     title: 'Interior de lujo',
     category: 'Interior',
   },
   {
-    src: 'https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80',
+    src: 'https://media.istockphoto.com/id/1663629195/es/foto/el-hombre-pule-el-coche-mientras-sostiene-la-microfibra-en-la-mano.jpg?s=612x612&w=0&k=20&c=CPLLWIAUou61DrooWTamT0yDjmh121Fi_wiltzxIEHQ=',
     title: 'Faros restaurados',
     category: 'Exterior',
   },
   {
-    src: 'https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=400&q=80',
+    src: 'https://bagesdetailing.com/wp-content/uploads/2020/09/car-detailing-1080x675-1.jpg',
     title: 'Pulido espejo',
     category: 'Detallado',
   },
   {
-    src: 'https://images.unsplash.com/photo-1511918984145-48de785d4c4e?auto=format&fit=crop&w=400&q=80',
+    src: 'https://cdn.prod.website-files.com/6612143a748f5c1dc2bf5e08/6612143a748f5c1dc2bf60ab_Ceramic%20Coating%20Before%20and%20After.webp',
     title: 'Antes: suciedad',
     category: 'Antes/Después',
   },
   {
-    src: 'https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=400&q=80',
+    src: 'https://marvel-b1-cdn.bc0a.com/f00000000270514/s25180.pcdn.co/wp-content/uploads/2015/08/iStock-30424122.jpg',
     title: 'Después: brillo',
     category: 'Antes/Después',
   },
   {
-    src: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=400&q=80',
+    src: 'https://carwashmarbella.com/wp-content/uploads/Limpieza-de-coche-tapiceria.jpg',
     title: 'Tapicería renovada',
     category: 'Interior',
   },
   {
-    src: 'https://images.unsplash.com/photo-1511918984145-48de785d4c4e?auto=format&fit=crop&w=400&q=80',
+    src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvpdD-JRiGvQy6Ra4KdVmT7nV5AhOei6U0Nw&s',
     title: 'Lavado exterior',
     category: 'Exterior',
   },
   {
-    src: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80',
+    src: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQa-9INDljYiScm5UdxcDZZnWQpcfzNvUU0a5Id6JsAwUiuHGta0POV7BekbHXUcY_YTbuDvAIXZ_RbLJPCDWo5GjbRk3nxC1ysAHtrD26wk4MaZmvRJw51p01mD5OrZ_46CXA8V6HI-s/s1600/car+wash2J.jpg',
     title: 'Limpieza profunda',
     category: 'Detallado',
   },
   {
-    src: 'https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80',
+    src: 'https://megusta.do/storage/32000/26266/a4c94761fd85aa9262f256dfc1811f3e.jpg',
     title: 'Interior familiar',
     category: 'Interior',
   },
   {
-    src: 'https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=400&q=80',
+    src: 'https://www.rojassa.com/wp-content/uploads/2018/03/pulido-de-autos.jpg',
     title: 'Pulido profesional',
     category: 'Detallado',
   },
   {
-    src: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=400&q=80',
+    src: 'https://www.shutterstock.com/shutterstock/videos/1100395861/thumb/1.jpg?ip=x480',
     title: 'Exterior deportivo',
     category: 'Exterior',
   },
   {
-    src: 'https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=400&q=80',
+    src: 'https://columbiatireauto.com/wp-content/uploads/2021/02/columbia-car-wash-pic.png',
     title: 'Antes: manchas',
     category: 'Antes/Después',
   },
   {
-    src: 'https://images.unsplash.com/photo-1511918984145-48de785d4c4e?auto=format&fit=crop&w=400&q=80',
+    src: 'https://static.wixstatic.com/media/57adaa_7b4ed3b00e47413f8b4826793a96145b~mv2.jpg/v1/fill/w_560,h_420,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/57adaa_7b4ed3b00e47413f8b4826793a96145b~mv2.jpg',
     title: 'Después: impecable',
     category: 'Antes/Después',
   },

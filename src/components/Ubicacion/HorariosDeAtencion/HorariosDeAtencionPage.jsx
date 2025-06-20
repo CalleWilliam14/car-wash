@@ -110,7 +110,7 @@ const HorariosDeAtencionPage = () => {
                         <span><i className="bi bi-images me-2 text-primary"></i>Nuestras Instalaciones</span>
                         <Link to="/galeria" className="small">Ver todas las fotos <i className="bi bi-arrow-right-short"></i></Link>
                     </h5>
-                    <img src="https://via.placeholder.com/400x300.png?text=CarWash+Express" alt="Instalaciones CarWash" className="img-fluid rounded" />
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm-puZiOWrRKNjm9OTojmbPouXt7GeqThPOQ&s" alt="Instalaciones CarWash" className="img-fluid rounded" />
                 </div>
             </div>
 

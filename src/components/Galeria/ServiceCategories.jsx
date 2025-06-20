@@ -5,7 +5,7 @@ const services = [
   {
     title: 'Lavado Básico',
     desc: 'Nuestro servicio de lavado exterior completo con espuma activa y secado a mano.',
-    img: 'https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80',
+    img: 'https://cdn.buttercms.com/cgmViEalQJa5poDCMf2Q',
     icon: 'bi-droplet',
     badge: 'Popular',
     color: 'primary',
@@ -13,7 +13,7 @@ const services = [
   {
     title: 'Detallado Premium',
     desc: 'Servicio completo de detallado con pulido, encerado y protección de pintura de larga duración.',
-    img: 'https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=400&q=80',
+    img: 'https://www.amautodetail.com/uploads/1/2/4/0/124006011/1549265266790_1.png',
     icon: 'bi-stars',
     badge: 'Premium',
     color: 'warning',
@@ -21,7 +21,7 @@ const services = [
   {
     title: 'Limpieza Interior',
     desc: 'Limpieza profunda de interiores con aspirado, tratamiento de tapicería y desinfección.',
-    img: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80',
+    img: 'https://www.amautodetail.com/uploads/1/2/4/0/124006011/1549264542768_1.png',
     icon: 'bi-person-arms-up',
     badge: 'Hogar',
     color: 'success',
