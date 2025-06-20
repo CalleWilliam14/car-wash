@@ -1,0 +1,19 @@
+:root {
+  /* Color primario */
+  --color-primary: #00A8FF;
+  
+  /* Colores secundarios */
+  --color-secondary-green: #00C853;
+  --color-secondary-yellow: #FFD600;
+  
+  /* Color de fondo */
+  --color-background: linear-gradient(135deg, #E6F0FF 0%, #FFFFFF 100%);
+  
+  /* Colores de texto */
+  --color-text-primary: #111111;
+  --color-text-secondary: #333333;
+  --color-text-white: #FFFFFF;
+  
+  /* Color de enlaces */
+  --color-link: #00A8FF;
+} 

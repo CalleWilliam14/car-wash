@@ -1,20 +1,55 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap-icons/font/bootstrap-icons.css';
 import './App.css'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Navbar from './components/layout/Navbar'
+import Hero from './components/Galeria/Hero'
+import GalleryExplore from './components/Galeria/GalleryExplore'
+import ServiceCategories from './components/Galeria/ServiceCategories'
+import BeforeAfter from './components/Galeria/BeforeAfter'
+import TeamSection from './components/Galeria/TeamSection'
+import CallToAction from './components/Galeria/CallToAction'
+import Footer from './components/layout/Footer'
+import { Routes, Route } from 'react-router-dom';
+import CarouselPage from './components/Galeria/Carousel/CarouselPage';
+import MosaicPage from './components/Galeria/Mosaico/MosaicPage';
+import CategoryPage from './components/Galeria/Categoria/CategoryPage';
+import BeforeAfterPage from './components/Galeria/AntesDespues/BeforeAfterPage';
+import TeamPage from './components/Galeria/NuestroEquipo/TeamPage';
+import ProcessPage from './components/Galeria/Proceso/ProcessPage';
+import MapaInteractivoPage from './components/Ubicacion/MapaInteractivo/MapaInteractivoPage';
+import DetallesDeLocalizacionPage from './components/Ubicacion/DetallesDeLocalizacion/DetallesDeLocalizacionPage';
+import HorariosDeAtencionPage from './components/Ubicacion/HorariosDeAtencion/HorariosDeAtencionPage';
 import EcologicalProducts from './pages/ecological-products/EcologicalProducts'
 import ProductDetails from './pages/product-details/ProductDetails'
 import ProductComparision from './pages/product-comparision/ProductComparision';
 
 function App() {
   return (
-    <BrowserRouter>
+    <>
+      <Navbar />
       <Routes>
+        <Route path="/" element={
+          <>
+            <Hero />
+            <GalleryExplore />
+            <ServiceCategories />
+            <BeforeAfter />
+            <CallToAction />
+          </>
+        } />
+        <Route path="/carrusel" element={<CarouselPage />} />
+        <Route path="/mosaico" element={<MosaicPage />} />
+        <Route path="/categoria" element={<CategoryPage />} />
+        <Route path="/antesdespues" element={<BeforeAfterPage />} />
+        <Route path="/equipo" element={<TeamPage />} />
+        <Route path="/proceso" element={<ProcessPage />} />
+        <Route path="/ubicacion" element={<MapaInteractivoPage />} />
+        <Route path="/detalles" element={<DetallesDeLocalizacionPage />} />
+        <Route path="/horarios" element={<HorariosDeAtencionPage />} />
         <Route path='/productos-ecologicos' element={<EcologicalProducts />} />
         <Route path='/productos-ecologicos/:id' element={<ProductDetails />} />
         <Route path='/comparar-productos' element={<ProductComparision />} />
       </Routes>
-    </BrowserRouter>
+      <Footer />
+    </>
   )
 }
 
