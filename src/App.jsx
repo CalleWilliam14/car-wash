@@ -18,6 +18,12 @@ import MapaInteractivoPage from './components/Ubicacion/MapaInteractivo/MapaInte
 import DetallesDeLocalizacionPage from './components/Ubicacion/DetallesDeLocalizacion/DetallesDeLocalizacionPage';
 import HorariosDeAtencionPage from './components/Ubicacion/HorariosDeAtencion/HorariosDeAtencionPage';
 
+import ChatBot from './components/ChatBot/ChatBot';
+import Calendar from './pages/Calendar'
+import Booking from './pages/Booking'
+import Payment from './pages/Payment'
+import Confirmation from './pages/Confirmation'
+
 function App() {
   return (
     <>
@@ -41,8 +47,15 @@ function App() {
         <Route path="/ubicacion" element={<MapaInteractivoPage />} />
         <Route path="/detalles" element={<DetallesDeLocalizacionPage />} />
         <Route path="/horarios" element={<HorariosDeAtencionPage />} />
+
+        <Route path="/reserva" element={<Calendar />} />
+        <Route path="/booking" element={<Booking />} />
+        <Route path="/payment" element={<Payment />} />
+        <Route path="/confirmation" element={<Confirmation />} />
+        <Route path="/calendar" element={<Calendar />} />
       </Routes>
       <Footer />
+      <ChatBot />
     </>
   )
 }
