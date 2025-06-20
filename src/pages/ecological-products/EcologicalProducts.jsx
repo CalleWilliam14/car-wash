@@ -8,10 +8,10 @@ function EcologicalProducts() {
   const navigate = useNavigate();
 
   return (
-    <Container fluid className='content'>
+    <Container fluid className='content bg-white'>
       <Row className='topContent justify-content-md-center'>
         <Col md={8}>
-          <h1>Productos Ecol&oacute;gicos</h1>
+          <h2>Productos Ecol&oacute;gicos</h2>
 
           <p>
             Nuestra selecci&oacute;n de productos respetuosos con el medio ambiente que utilizamos en nuestro servicio de lavado de autos, dise&ntilde;ados para cuidar tanto su veh&iacute;culo como el planeta.
@@ -26,7 +26,7 @@ function EcologicalProducts() {
         </Col>
       </Row>
 
-      <Row>
+      <Row className='mt-3'>
         <Col className='listProducts'>
           {
             products.slice(0, 6).map((product, index) => (

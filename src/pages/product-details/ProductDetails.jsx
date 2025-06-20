@@ -26,7 +26,16 @@ function ProductDetails() {
   scoreAvg = scoreAvg / productReviewsLength;
 
   return (
-    <Container fluid className='content'>
+    <Container fluid className='content bg-white'>
+      <Row>
+        <nav aria-label="breadcrumb">
+          <ol className="breadcrumb bg-transparent px-0 mb-2">
+            <li className="breadcrumb-item">Inicio</li>
+            <li className="breadcrumb-item" aria-current="page">Productos Ecológicos</li>
+            <li className="breadcrumb-item active" aria-current="page">{product.title}</li>
+          </ol>
+        </nav>
+      </Row>
       <Row className='justify-content-around align-items-center'>
         <Col md={4}>
           <img
@@ -94,7 +103,7 @@ function ProductDetails() {
               </div>
 
               <div>
-                <Form.Label>Cantidad</Form.Label>
+                <Form.Label>Tamaño</Form.Label>
                 <InputGroup>
                   <Form.Select
                     onChange={e => {
@@ -124,19 +133,27 @@ function ProductDetails() {
 
           <div className='d-flex flex-column'>
             <a 
-              className='link-opacity-100'
+              className='link-primary'
               onClick={() => {
                 navigate('/comparar-productos');
                 window.scrollTo(0, 0);
+              }}
+              style={{
+                textDecoration: 'none',
+                cursor: 'pointer',
               }}
             >
               Comparar con otros productos
             </a>
             <a
-              className='link-opacity-100'
+              className='link-primary'
               onClick={() => {
                 navigate('/productos-ecologicos');
                 window.scrollTo(0, 0);
+              }}
+              style={{
+                textDecoration: 'none',
+                cursor: 'pointer',
               }}
             >
               Volver a Productos Ecol&oacute;gicos
@@ -151,6 +168,7 @@ function ProductDetails() {
           activeKey={activeTab}
           onSelect={(key) => setActiveTab(key)}
           style={{ marginBottom: '1rem', marginTop: '1rem' }}
+          className='customTab'
         >
           <Tab eventKey='ingredients' title='Ingredientes'>
             <Ingredients product={product} />

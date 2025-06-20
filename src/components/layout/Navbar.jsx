@@ -16,6 +16,7 @@ const Navbar = () => (
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
           <li className="nav-item"><Link className="nav-link" to="/"><i className="bi bi-images me-1"></i>Galería</Link></li>
           <li className="nav-item"><Link className="nav-link" to="/categoria"><i className="bi bi-tools me-1"></i>Servicios</Link></li>
+          <li className="nav-item"><Link className="nav-link" to="/productos-ecologicos"><i className="bi bi-leaf me-1"></i>Productos Ecológicos</Link></li>
           <li className="nav-item"><Link className="nav-link" to="/antesdespues"><i className="bi bi-arrow-repeat me-1"></i>Antes y Después</Link></li>
           <li className="nav-item"><Link className="nav-link" to="/equipo"><i className="bi bi-people me-1"></i>Nuestro Equipo</Link></li>
           <li className="nav-item"><Link className="nav-link" to="/proceso"><i className="bi bi-gear me-1"></i>Proceso</Link></li>

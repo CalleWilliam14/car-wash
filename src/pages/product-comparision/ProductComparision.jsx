@@ -1,7 +1,7 @@
 import { Button, Col, Container, Row, Table } from 'react-bootstrap';
-import './ProductComparision.css';
 import allProducts from '../../data/products.json';
 import { useNavigate } from 'react-router-dom';
+import './ProductComparision.css';
 
 function ProductComparision() {
   const navigate = useNavigate();
@@ -9,13 +9,28 @@ function ProductComparision() {
   const products = allProducts.slice(productsLength - 4, productsLength);
 
   return (
-    <Container fluid className='p-5'>
+    <Container fluid className='bg-white content p-4'>
       <Row>
-        <h1>Comparaci&oacute;n de Productos Ecol&oacute;gicos</h1>
+        <a
+          className='link-primary'
+          onClick={() => {
+            navigate('/productos-ecologicos');
+            window.scrollTo(0, 0);
+          }}
+          style={{
+            textDecoration: 'none',
+            color: '#2c3e50', // Color normal
+            cursor: 'pointer',
+          }}
+        >
+          Volver a Productos Ecol&oacute;gicos
+        </a>
+        <h2>Comparaci&oacute;n de Productos Ecol&oacute;gicos</h2>
+        <p>Compare nuestros productos ecológicos para encontrar el que mejor se adapte a sus necesidades</p>
       </Row>
 
       <Row className='table-responsive'>
-        <Table bordered style={{ tableLayout: 'fixed' }}>
+        <Table bordered className='customTable' style={{ tableLayout: 'fixed' }}>
           <tbody>
             <tr className='align-middle'>
               <th>Características</th>
@@ -184,7 +199,10 @@ function ProductComparision() {
                     <div className='d-flex align-items-center justify-content-center'>
                       <Button
                         variant='dark'
-                        onClick={() => navigate(`/productos-ecologicos/${i + productsLength - 4}`)}
+                        onClick={() => {
+                          navigate(`/productos-ecologicos/${i + productsLength - 4}`)
+                          window.scrollTo(0, 0);
+                        }}
                       >
                         Ver detalles
                       </Button>

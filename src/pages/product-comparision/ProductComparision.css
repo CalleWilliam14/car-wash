@@ -1,5 +1,17 @@
 .table-responsive {
   overflow-x: auto;
+
+  @media (max-width: 780px) {
+    overflow-y: auto;
+  }
+}
+
+.customTable {
+  table-layout: fixed;
+
+  @media (max-width: 780px) {
+    table-layout: auto;
+  }
 }
 
 .table thead th {
