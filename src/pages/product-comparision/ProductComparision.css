@@ -1,0 +1,10 @@
+.table-responsive {
+  overflow-x: auto;
+}
+
+.table thead th {
+  position: sticky;
+  top: 0;
+  background-color: white; /* Or any other background color */
+  z-index: 1;
+}

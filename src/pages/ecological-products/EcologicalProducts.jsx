@@ -2,8 +2,11 @@ import { Button, Col, Container, Row } from 'react-bootstrap';
 import products from '../../data/products.json';
 import ProductCard from './ProductCard';
 import './EcologicalProducts.css';
+import { useNavigate } from 'react-router-dom';
 
 function EcologicalProducts() {
+  const navigate = useNavigate();
+
   return (
     <Container fluid className='content'>
       <Row className='topContent justify-content-md-center'>
@@ -16,6 +19,7 @@ function EcologicalProducts() {
 
           <Button
             variant='dark'
+            onClick={() => navigate('/comparar-productos')}
           >
             Comparar Impacto Ecol&oacute;gico
           </Button>
@@ -25,7 +29,7 @@ function EcologicalProducts() {
       <Row>
         <Col className='listProducts'>
           {
-            products.map((product, index) => (
+            products.slice(0, 6).map((product, index) => (
               <ProductCard
                 key={index}
                 id={index}

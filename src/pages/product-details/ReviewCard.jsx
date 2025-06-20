@@ -2,7 +2,7 @@ import { Card } from "react-bootstrap";
 
 function ReviewCard({ review }) {
   return (
-    <Card className='mb-2' style={{ background: '#f5f5f5' }}>
+    <Card className='mb-2 flex-grow-1' style={{ background: '#f5f5f5' }}>
       <Card.Body>
         <div>
           {

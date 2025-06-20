@@ -1,11 +1,11 @@
 import { useNavigate, useParams } from 'react-router-dom';
 import products from '../../data/products.json';
-import { Button, ButtonToolbar, Card, Col, Container, Form, InputGroup, Row, Tab, Tabs } from 'react-bootstrap';
+import { Button, ButtonToolbar, Col, Container, Form, InputGroup, Row, Tab, Tabs } from 'react-bootstrap';
 import './ProductDetails.css';
 import { useState } from 'react';
 import Ingredients from './Ingredients';
 import EcologicalBenefits from './EcologicalBenefits';
-import Reviews from './ReviewsPreview';
+import Reviews from './Reviews';
 
 function ProductDetails() {
   const navigate = useNavigate();
@@ -123,7 +123,15 @@ function ProductDetails() {
           </div>
 
           <div className='d-flex flex-column'>
-            {/*<a className='link-opacity-100'>Comparar con otros productos</a>*/}
+            <a 
+              className='link-opacity-100'
+              onClick={() => {
+                navigate('/comparar-productos');
+                window.scrollTo(0, 0);
+              }}
+            >
+              Comparar con otros productos
+            </a>
             <a
               className='link-opacity-100'
               onClick={() => {

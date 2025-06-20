@@ -67,10 +67,9 @@
             }
         ],
         "uses": [
-            "Diluir 50ml en 10L de agua para lavado normal",
-            "Aplicar directamente en áreas muy sucias con esponja suave",
-            "Enjuagar completamente después de lavar",
-            "No usar bajo luz solar directa para evitar manchas"
+            "Aplicar sobre la superficie del vehículo con una esponja o guante de lavado",
+            "Enjuagar con abundante agua",
+            "No requiere repetición de aplicación"
         ],
         "reviews": [
             {
@@ -90,36 +89,26 @@
                 "detail": "Cliente verificado",
                 "comment": "Llevo años buscando productos de limpieza que sean realmente ecológicos y este champú cumple todas mis expectativas. Deja mi coche brillante y no irrita mi piel sensible como otros productos.",
                 "score": 5
+            }
+        ],
+        "environmentalImpact": 5,
+        "waterSaving": 4,
+        "idealFor": "Lavado ecológico de vehículos",
+        "certifications": [
+            {
+                "icon": "award-fill",
+                "title": "Ecocert",
+                "description": "Certificación para productos cosméticos ecológicos y naturales"
             },
             {
-                "user": "Laura Vargas",
-                "detail": "Cliente ocasional",
-                "comment": "El producto es bueno pero me parece un poco caro comparado con otras opciones. El aroma es agradable pero no muy duradero.",
-                "score": 3
+                "icon": "leaf",
+                "title": "USDA Organic",
+                "description": "Certificación de ingredientes orgánicos"
             },
             {
-                "user": "Roberto Jiménez",
-                "detail": "Lavador profesional",
-                "comment": "Buena espuma y limpieza, pero requiere más producto que los champús convencionales para lograr los mismos resultados. La parte ecológica es excelente.",
-                "score": 4
-            },
-            {
-                "user": "Sofía Ríos",
-                "detail": "Cliente verificado",
-                "comment": "No quedé satisfecha con el resultado. No quitó bien las manchas de insectos en mi vehículo. Tuve que usar otro producto después.",
-                "score": 2
-            },
-            {
-                "user": "Diego Castro",
-                "detail": "Ecologista",
-                "comment": "Finalmente un producto que cumple lo que promete. Excelente rendimiento y cero culpa ambiental. Lo recomiendo 100%.",
-                "score": 5
-            },
-            {
-                "user": "Patricia Núñez",
-                "detail": "Cliente frecuente",
-                "comment": "Compré el formato de 5L para mi taller y ha sido una excelente inversión. Los clientes preguntan por el producto y algunos lo compran para uso personal.",
-                "score": 5
+                "icon": "recycle",
+                "title": "Plastic Free",
+                "description": "Certificación de envases libres de plástico virgen"
             }
         ]
     },
@@ -131,112 +120,107 @@
         "price": "32.50 Bs",
         "stock": [
             {
-                "quantity": 12,
+                "quantity": 20,
                 "capacity": "250ml"
             },
             {
-                "quantity": 5,
+                "quantity": 8,
                 "capacity": "500ml"
-            },
-            {
-                "quantity": 2,
-                "capacity": "1L"
             }
         ],
         "ingredients": {
-            "detail": "Nuestra cera ecológica combina los mejores ingredientes naturales para proteger y embellecer tu vehículo:",
+            "detail": "Formulación natural que protege y brilla sin dañar el medio ambiente:",
             "content": [
                 "Cera de carnaúba orgánica",
                 "Aceite de coco virgen",
                 "Aceite esencial de limón",
                 "Cera de abejas",
-                "Extracto de uva (antioxidante natural)",
                 "Aceite de jojoba"
             ],
             "excluded": [
                 "Sin siliconas",
                 "Sin derivados del petróleo",
                 "Sin parabenos",
-                "Sin fragancias artificiales",
-                "Sin conservantes sintéticos"
+                "Sin fragancias artificiales"
             ]
         },
         "ecologicalBenefits": [
             {
                 "icon": "sun",
                 "title": "Protección UV Natural",
-                "description": "Protege la pintura de los rayos UV sin químicos dañinos, prolongando la vida del acabado."
+                "description": "Protege la pintura de los rayos UV sin químicos dañinos."
             },
             {
                 "icon": "tree",
-                "title": "Ingredientes Orgánicos",
-                "description": "Todos los ingredientes provienen de agricultura orgánica y comercio justo."
-            },
-            {
-                "icon": "recycle",
-                "title": "Envase Reciclable",
-                "description": "Frasco de vidrio reciclable con tapa de metal, reduciendo el uso de plásticos."
+                "title": "Ingredientes Sostenibles",
+                "description": "Ingredientes obtenidos mediante prácticas agrícolas sostenibles."
             },
             {
                 "icon": "droplet",
                 "title": "Ahorro de Agua",
-                "description": "Reduce la frecuencia de lavados al repeler el polvo y la suciedad."
+                "description": "Reduce la frecuencia de lavados al mantener el vehículo limpio por más tiempo."
             },
             {
-                "icon": "flower1",
-                "title": "Biodegradable",
-                "description": "Se descompone naturalmente sin contaminar el suelo o el agua."
+                "icon": "recycle",
+                "title": "Envase Reciclable",
+                "description": "Frasco de vidrio 100% reciclable con tapa de metal."
             }
         ],
         "uses": [
             "Aplicar sobre superficie limpia y seca",
-            "Extender una capa fina con paño de microfibra",
-            "Dejar secar por 10-15 minutos",
-            "Pulir con paño limpio hasta obtener brillo",
-            "Reaplicar cada 2-3 meses para protección óptima"
+            "Dejar actuar por 5 minutos",
+            "Retirar con paño de microfibra"
         ],
         "reviews": [
             {
-                "user": "Juan Pérez",
+                "user": "Laura Fernández",
                 "detail": "Detallista profesional",
-                "comment": "El mejor brillo que he obtenido con una cera natural. Dura más de lo esperado y huele increíble.",
+                "comment": "El brillo que deja es espectacular y dura semanas. Me encanta que no tenga químicos fuertes.",
                 "score": 5
             },
             {
-                "user": "María Fernández",
-                "detail": "Cliente verificado",
-                "comment": "Difícil de aplicar comparado con ceras sintéticas, pero el resultado final vale la pena. Brillo espectacular.",
+                "user": "Roberto Jiménez",
+                "detail": "Cliente ocasional",
+                "comment": "Un poco difícil de aplicar, pero los resultados valen la pena.",
                 "score": 4
             },
             {
-                "user": "Luis Torrez",
-                "detail": "Nuevo cliente",
-                "comment": "No quedé convencido. El brillo no dura tanto como anuncian y es bastante cara para lo que ofrece.",
-                "score": 2
-            },
-            {
-                "user": "Carolina Méndez",
-                "detail": "Cliente frecuente",
-                "comment": "Adoro esta cera! Protege mi auto del sol y le da un brillo espectacular. Además me encanta que sea ecológica.",
+                "user": "Sofía Ramírez",
+                "detail": "Cliente verificado",
+                "comment": "Huele delicioso a limón natural, no a químico como otras ceras.",
                 "score": 5
             },
             {
-                "user": "Andrés Rojas",
+                "user": "Diego López",
                 "detail": "Cliente desde 2022",
-                "comment": "Buena cera pero el frasco es muy pequeño para el precio. Deberían ofrecer más cantidad.",
+                "comment": "No protege tanto como las ceras sintéticas, pero prefiero algo natural.",
                 "score": 3
             },
             {
-                "user": "Gabriela Castro",
+                "user": "Valeria Castro",
                 "detail": "Propietaria de concesionario",
-                "comment": "La usamos para los autos de exposición. Los clientes notan la diferencia y aprecian que usemos productos ecológicos.",
+                "comment": "Mis clientes ecológicos la adoran. Excelente producto premium.",
                 "score": 5
+            }
+        ],
+        "environmentalImpact": 4,
+        "waterSaving": 3,
+        "idealFor": "Protección y brillo natural",
+        "certifications": [
+            {
+                "icon": "award",
+                "title": "Vegan Certified",
+                "description": "Producto libre de ingredientes animales"
             },
             {
-                "user": "Oscar Durán",
-                "detail": "Entusiasta del detailing",
-                "comment": "Para ser natural, tiene un rendimiento excelente. No iguala a las ceras sintéticas en duración, pero es la mejor opción ecológica que he probado.",
-                "score": 4
+                "icon": "globe",
+                "title": "Rainforest Alliance",
+                "description": "Ingredientes cultivados sosteniblemente"
+            },
+            {
+                "icon": "recycle",
+                "title": "Zero Waste",
+                "description": "Envase reutilizable y reciclable"
             }
         ]
     },
@@ -248,113 +232,112 @@
         "price": "28.75 Bs",
         "stock": [
             {
-                "quantity": 20,
+                "quantity": 12,
                 "capacity": "500ml"
             },
             {
-                "quantity": 7,
+                "quantity": 5,
                 "capacity": "1L"
             },
             {
-                "quantity": 0,
-                "capacity": "5L"
+                "quantity": 25,
+                "capacity": "250ml"
             }
         ],
         "ingredients": {
-            "detail": "Fórmula segura para tus llantas y el medio ambiente:",
+            "detail": "Fórmula segura para llantas y el medio ambiente:",
             "content": [
-                "Agua desionizada",
-                "Tensioactivos vegetales",
-                "Citratos naturales",
+                "Agua purificada",
                 "Bicarbonato de sodio",
-                "Extracto de cítricos",
-                "Agentes quelantes biodegradables"
+                "Ácido cítrico",
+                "Extracto de toronja",
+                "Surfactantes vegetales"
             ],
             "excluded": [
-                "Sin ácidos",
-                "Sin álcalis cáusticos",
-                "Sin fosfatos",
-                "Sin EDTA",
+                "Sin ácidos fuertes",
                 "Sin metales pesados",
-                "Sin colorantes artificiales"
+                "Sin fosfatos",
+                "Sin colorantes"
             ]
         },
         "ecologicalBenefits": [
             {
                 "icon": "shield",
-                "title": "Seguro para Metales",
-                "description": "No corroe ni daña los acabados metálicos, protegiendo tus llantas a largo plazo."
+                "title": "Seguro para Aluminio",
+                "description": "No daña las aleaciones ni los acabados delicados."
             },
             {
-                "icon": "water",
-                "title": "No Contaminante",
-                "description": "Fórmula que no contamina el agua ni el suelo, segura para uso en áreas sensibles."
+                "icon": "droplet-half",
+                "title": "Bajo Consumo de Agua",
+                "description": "Requiere menos agua para enjuagar que productos convencionales."
             },
             {
-                "icon": "recycle",
-                "title": "Envase Reciclado",
-                "description": "Botella hecha con 90% plástico reciclado post-consumo."
-            },
-            {
-                "icon": "tree",
+                "icon": "flower1",
                 "title": "Biodegradable",
-                "description": "Se descompone completamente en 30 días sin residuos tóxicos."
+                "description": "Se descompone rápidamente sin contaminar el suelo."
             },
             {
-                "icon": "droplet",
-                "title": "Ahorro de Agua",
-                "description": "Requiere menos enjuague que los limpiadores convencionales."
+                "icon": "bucket",
+                "title": "Seguro para Drenajes",
+                "description": "No daña las tuberías ni los sistemas sépticos."
             }
         ],
         "uses": [
-            "Rociar directamente sobre llantas frías",
-            "Dejar actuar 2-3 minutos sin secar",
-            "Cepillar con cerdas suaves si es necesario",
-            "Enjuagar completamente con agua",
-            "No usar en superficies calientes"
+            "Rociar sobre llantas secas",
+            "Dejar actuar 2-3 minutos",
+            "Cepillar suavemente",
+            "Enjuagar con agua"
         ],
         "reviews": [
             {
-                "user": "Fernando Paz",
-                "detail": "Mecánico",
-                "comment": "Funciona bien para suciedad normal, pero para freno muy incrustado necesita más potencia. Lo bueno es que no daña las llantas como otros productos.",
+                "user": "Jorge Herrera",
+                "detail": "Mecánico profesional",
+                "comment": "Funciona bien en llantas normales, pero para frenos muy sucios necesita más potencia.",
                 "score": 4
             },
             {
-                "user": "Daniela Romero",
-                "detail": "Cliente verificado",
-                "comment": "Me encanta que no tenga ese olor fuerte de los limpiadores comunes. Limpia bien y no tengo que preocuparme por mis mascotas alrededor.",
+                "user": "María Rojas",
+                "detail": "Cliente frecuente",
+                "comment": "Me encanta que no tenga ese olor químico fuerte de otros limpiadores.",
                 "score": 5
             },
             {
-                "user": "Hugo Salinas",
-                "detail": "Taller de llantas",
-                "comment": "Lo usamos en el taller pero para trabajos profesionales necesitamos algo más fuerte. Bueno para mantenimiento regular.",
+                "user": "Luis Vargas",
+                "detail": "Propietario de taller",
+                "comment": "Mis empleados pueden usarlo sin guantes, eso dice mucho de su seguridad.",
+                "score": 5
+            },
+            {
+                "user": "Carolina Méndez",
+                "detail": "Cliente verificado",
+                "comment": "No quita las manchas más difíciles, pero prefiero eso a usar químicos fuertes.",
                 "score": 3
             },
             {
-                "user": "Valeria Montes",
-                "detail": "Cliente frecuente",
-                "comment": "El mejor limpiador ecológico que he probado. Quita hasta el polvo de frenos más difícil y no deja residuos.",
-                "score": 5
-            },
-            {
-                "user": "Ricardo Peña",
+                "user": "Fernando Castro",
                 "detail": "Entusiasta de autos",
-                "comment": "No cumple lo que promete. Tuve que aplicarlo varias veces para limpiar bien mis llantas. Prefiero los productos tradicionales.",
-                "score": 2
-            },
-            {
-                "user": "Camila Ríos",
-                "detail": "Cliente nueva",
-                "comment": "Me sorprendió lo bien que funciona. No es agresivo pero limpia muy bien. Ideal para mis llantas de aleación.",
-                "score": 5
-            },
-            {
-                "user": "Pablo Gómez",
-                "detail": "Lavador profesional",
-                "comment": "Buen producto para uso diario, pero para limpiezas profundas necesito algo más fuerte. Lo recomiendo para clientes que quieren opciones ecológicas.",
+                "comment": "Excelente para mantenimiento regular, pero no para limpiezas profundas.",
                 "score": 4
+            }
+        ],
+        "environmentalImpact": 5,
+        "waterSaving": 4,
+        "idealFor": "Limpieza segura de llantas",
+        "certifications": [
+            {
+                "icon": "shield-check",
+                "title": "EPA Safer Choice",
+                "description": "Reconocido como producto más seguro por la EPA"
+            },
+            {
+                "icon": "water",
+                "title": "Blue Angel",
+                "description": "Certificación ambiental alemana"
+            },
+            {
+                "icon": "heart",
+                "title": "Dermatológicamente Testeado",
+                "description": "Seguro para el contacto con la piel"
             }
         ]
     },
@@ -363,118 +346,111 @@
         "title": "Limpiador de Interiores Natural",
         "description": "Formulado con extractos de plantas y aceites esenciales que limpian y desinfectan las superficies interiores sin químicos agresivos ni fragancias artificiales.",
         "tags": ["Hipoalergénico", "Antimicrobiano"],
-        "price": "22.40 Bs",
+        "price": "22.90 Bs",
         "stock": [
             {
                 "quantity": 18,
                 "capacity": "500ml"
             },
             {
-                "quantity": 6,
+                "quantity": 7,
                 "capacity": "750ml"
-            },
-            {
-                "quantity": 4,
-                "capacity": "1L"
             }
         ],
         "ingredients": {
-            "detail": "Composición natural que cuida tus interiores y tu salud:",
+            "detail": "Fórmula suave pero efectiva para el interior de tu vehículo:",
             "content": [
-                "Agua purificada",
-                "Alcohol vegetal orgánico",
+                "Agua destilada",
                 "Extracto de té verde",
                 "Aceite esencial de lavanda",
-                "Aceite esencial de árbol de té",
-                "Glicerina vegetal",
-                "Jabón de coco natural"
+                "Alcohol vegetal",
+                "Glicerina vegetal"
             ],
             "excluded": [
                 "Sin amoníaco",
-                "Sin cloro",
+                "Sin blanqueadores",
                 "Sin ftalatos",
-                "Sin formaldehído",
-                "Sin fragancias sintéticas",
-                "Sin colorantes artificiales"
+                "Sin fragancias sintéticas"
             ]
         },
         "ecologicalBenefits": [
             {
                 "icon": "flower2",
                 "title": "Aroma Natural",
-                "description": "Fragancia proveniente exclusivamente de aceites esenciales, sin sustancias artificiales."
+                "description": "Fragancia proveniente de aceites esenciales, no de perfumes sintéticos."
             },
             {
-                "icon": "heart",
-                "title": "Seguro para la Salud",
-                "description": "No emite compuestos orgánicos volátiles (COV) que afectan la calidad del aire interior."
+                "icon": "shield-plus",
+                "title": "Antimicrobiano Natural",
+                "description": "Protege contra bacterias usando extractos vegetales en lugar de químicos."
+            },
+            {
+                "icon": "person-heart",
+                "title": "Seguro para Alergicos",
+                "description": "Formulado para no causar irritaciones ni reacciones alérgicas."
             },
             {
                 "icon": "recycle",
-                "title": "Envasado Sostenible",
-                "description": "Botella 100% reciclable con sistema de spray recargable."
-            },
-            {
-                "icon": "shield",
-                "title": "Antimicrobiano Natural",
-                "description": "Los aceites esenciales proporcionan protección antibacteriana sin químicos agresivos."
-            },
-            {
-                "icon": "tree",
-                "title": "Biodegradable",
-                "description": "Se descompone rápidamente sin impactar el medio ambiente."
+                "title": "Envase Recargable",
+                "description": "Sistema de recarga disponible para reducir residuos."
             }
         ],
         "uses": [
-            "Rociar sobre superficies interiores",
+            "Rociar sobre superficies",
             "Limpiar con paño de microfibra",
-            "Para tapicería: aplicar y dejar secar",
-            "No enjuagar",
-            "Usar en áreas ventiladas",
-            "Agitar antes de usar"
+            "No requiere enjuague",
+            "Ideal para plásticos, vinilo y cuero"
         ],
         "reviews": [
             {
-                "user": "Lucía Mendoza",
+                "user": "Patricia Navarro",
                 "detail": "Madre de familia",
-                "comment": "Perfecto para limpiar los asientos de los niños sin preocuparme por químicos dañinos. El aroma a lavanda es relajante.",
+                "comment": "Perfecto para limpiar las sillitas de los niños sin preocuparme por químicos.",
                 "score": 5
             },
             {
-                "user": "Roberto Sánchez",
+                "user": "Ricardo Soto",
                 "detail": "Taxista",
-                "comment": "Lo uso diariamente en mi taxi. Limpia bien y los pasajeros comentan lo agradable que huele el auto. No reseca las superficies como otros productos.",
+                "comment": "Uso este producto diariamente en mi taxi. Los pasajeros siempre comentan lo agradable que huele.",
                 "score": 5
             },
             {
-                "user": "Elena Castro",
+                "user": "Daniela Cruz",
                 "detail": "Alérgica a químicos",
-                "comment": "Por fin un limpiador que no me causa reacciones alérgicas. Funciona bien y huele natural, no artificial.",
+                "comment": "Finalmente un limpiador que no me da dolor de cabeza. Funciona muy bien.",
                 "score": 5
             },
             {
-                "user": "Jorge Morales",
-                "detail": "Cliente nuevo",
-                "comment": "No quita bien las manchas difíciles. Tuve que complementar con otro producto. Es suave pero poco efectivo para limpieza profunda.",
-                "score": 2
-            },
-            {
-                "user": "Adriana Rojas",
-                "detail": "Dueña de flotilla",
-                "comment": "Excelente para mantenimiento diario de nuestros vehículos. Los empleados no se quejan de dolores de cabeza como con los limpiadores tradicionales.",
+                "user": "Oscar Morales",
+                "detail": "Detallista profesional",
+                "comment": "No deja brillo artificial como otros productos, pero limpia profundamente.",
                 "score": 4
             },
             {
-                "user": "Martín Fuentes",
-                "detail": "Detallista",
-                "comment": "Buen producto para mantenimiento, pero para limpieza profesional necesito algo más potente. Ideal para clientes sensibles a químicos.",
-                "score": 3
+                "user": "Gabriela Ríos",
+                "detail": "Cliente verificado",
+                "comment": "El aroma a lavanda es relajante, pero me gustaría que ofrecieran más fragancias.",
+                "score": 4
+            }
+        ],
+        "environmentalImpact": 4,
+        "waterSaving": 3,
+        "idealFor": "Limpieza segura de interiores",
+        "certifications": [
+            {
+                "icon": "flower1",
+                "title": "Certificado Orgánico",
+                "description": "Contiene ingredientes orgánicos certificados"
             },
             {
-                "user": "Silvia Peña",
-                "detail": "Cliente frecuente",
-                "comment": "Me encanta que no deja ese olor químico en el auto. Limpia bien y protege las superficies. Vale cada centavo.",
-                "score": 5
+                "icon": "shield-exclamation",
+                "title": "No Tóxico",
+                "description": "Certificado por el Environmental Working Group"
+            },
+            {
+                "icon": "airplane",
+                "title": "Vegano",
+                "description": "Libre de ingredientes animales"
             }
         ]
     },
@@ -483,116 +459,111 @@
         "title": "Limpiador de Cristales Eco-Crystal",
         "description": "Elaborado con vinagre destilado y aceites cítricos naturales. Limpia sin dejar residuos ni rayas, evitando el uso de amoníaco y otros químicos tóxicos.",
         "tags": ["Sin Amoníaco", "Cero Residuos", "Antivaho"],
-        "price": "19.99 Bs",
+        "price": "19.50 Bs",
         "stock": [
             {
-                "quantity": 25,
+                "quantity": 22,
                 "capacity": "500ml"
             },
             {
                 "quantity": 10,
                 "capacity": "1L"
-            },
-            {
-                "quantity": 2,
-                "capacity": "2L"
             }
         ],
         "ingredients": {
-            "detail": "Fórmula transparente para tus cristales:",
+            "detail": "Fórmula transparente para cristales impecables:",
             "content": [
-                "Agua destilada",
-                "Vinagre de caña destilado",
-                "Alcohol vegetal",
-                "Extracto de cáscara de naranja",
-                "Glicerina vegetal",
-                "Aceite esencial de limón"
+                "Vinagre destilado",
+                "Agua desionizada",
+                "Aceite esencial de limón",
+                "Extracto de semilla de toronja",
+                "Glicerina vegetal"
             ],
             "excluded": [
                 "Sin amoníaco",
-                "Sin etanolaminas",
-                "Sin tintes",
-                "Sin fosfatos",
-                "Sin fragancias sintéticas"
+                "Sin alcohol isopropílico",
+                "Sin colorantes",
+                "Sin químicos que dañan los tratamientos anti-vaho"
             ]
         },
         "ecologicalBenefits": [
             {
-                "icon": "eye",
+                "icon": "droplet",
                 "title": "Sin Rayas",
-                "description": "Fórmula que evita rayones y marcas en superficies de cristal."
+                "description": "Fórmula que evita rayones en cristales delicados."
             },
             {
                 "icon": "cloud-sun",
-                "title": "Efecto Antivaho",
-                "description": "Ayuda a reducir la formación de vaho en los cristales."
+                "title": "Antivaho Natural",
+                "description": "Ayuda a reducir la formación de vaho sin químicos."
             },
             {
                 "icon": "recycle",
-                "title": "Envase Eco",
-                "description": "Botella de plástico reciclado con sistema de spray recargable."
-            },
-            {
-                "icon": "water",
-                "title": "Ahorro de Producto",
-                "description": "Rinde hasta un 40% más que los limpiadores convencionales."
+                "title": "Botella Reciclable",
+                "description": "Envase 100% reciclable con atomizador reutilizable."
             },
             {
                 "icon": "tree",
-                "title": "Biodegradable",
-                "description": "Se descompone en 21 días sin impacto ambiental."
+                "title": "Ingredientes Renovables",
+                "description": "Todos los ingredientes provienen de fuentes renovables."
             }
         ],
         "uses": [
-            "Rociar directamente sobre el cristal",
-            "Limpiar con paño de microfibra o papel de periódico",
-            "Para mejores resultados, usar en sombra",
-            "No requiere enjuague",
-            "Para interiores y exteriores",
-            "Agitar antes de usar"
+            "Rociar directamente sobre cristales",
+            "Limpiar con paño de microfibra",
+            "Ideal para parabrisas, ventanas y espejos",
+            "No requiere enjuague"
         ],
         "reviews": [
             {
-                "user": "Gabriel Torres",
+                "user": "Sergio Mendoza",
                 "detail": "Conductor profesional",
-                "comment": "El mejor limpiador de vidrios que he usado. No deja marcas y el efecto antivaho realmente funciona. No vuelvo a productos químicos.",
+                "comment": "Funciona mejor que muchos productos convencionales. No deja residuos que afecten la visibilidad nocturna.",
                 "score": 5
             },
             {
-                "user": "Marina Vargas",
-                "detail": "Cliente verificado",
-                "comment": "Funciona bien pero el olor a vinagre es fuerte al principio. Los resultados son excelentes, sin rayas.",
+                "user": "Lucía Fernández",
+                "detail": "Cliente frecuente",
+                "comment": "El olor a vinagre al principio es fuerte, pero desaparece rápido dejando los cristales impecables.",
                 "score": 4
             },
             {
-                "user": "Raúl Jiménez",
-                "detail": "Taxista",
-                "comment": "Limpia bien pero no dura el efecto antivaho tanto como anuncian. Buen producto en general.",
-                "score": 3
+                "user": "Andrés López",
+                "detail": "Propietario de flotilla",
+                "comment": "Lo uso en mis 12 vehículos. Económico y efectivo, aunque a veces necesita una segunda pasada.",
+                "score": 4
             },
             {
-                "user": "Diana Cruz",
-                "detail": "Madre de familia",
-                "comment": "Perfecto para limpiar los vidrios del auto donde van los niños. No me preocupa que respiren químicos dañinos.",
+                "user": "Valentina Castro",
+                "detail": "Cliente verificado",
+                "comment": "No mancha los marcos de plástico como otros limpiadores. Muy contenta con la compra.",
                 "score": 5
             },
             {
-                "user": "Omar Ríos",
-                "detail": "Detallista",
-                "comment": "Buen producto ecológico, pero para vidrios muy sucios necesita más pasadas que los limpiadores convencionales.",
-                "score": 3
-            },
-            {
-                "user": "Natalia Soto",
-                "detail": "Cliente frecuente",
-                "comment": "Me encanta que no tenga amoníaco. Limpia perfectamente y no irrita los ojos como otros productos. Compro el formato grande siempre.",
+                "user": "Roberto Sánchez",
+                "detail": "Entusiasta de autos clásicos",
+                "comment": "Perfecto para mis cristales antiguos que no toleran químicos fuertes.",
                 "score": 5
+            }
+        ],
+        "environmentalImpact": 5,
+        "waterSaving": 4,
+        "idealFor": "Limpieza ecológica de cristales",
+        "certifications": [
+            {
+                "icon": "star",
+                "title": "Green Seal",
+                "description": "Certificación para productos de limpieza ecológicos"
             },
             {
-                "user": "Felipe Méndez",
-                "detail": "Nuevo cliente",
-                "comment": "No quedé satisfecho. Tuve problemas con manchas en los vidrios después de usar este producto. Quizás no es compatible con mi tipo de cristales.",
-                "score": 2
+                "icon": "check-circle",
+                "title": "Cruelty Free",
+                "description": "No testeado en animales"
+            },
+            {
+                "icon": "lightning",
+                "title": "Carbon Neutral",
+                "description": "Producción con huella de carbono neutral"
             }
         ]
     },
@@ -601,19 +572,15 @@
         "title": "Acondicionador de Neumáticos Eco-Protect",
         "description": "Protector a base de agua y aceites vegetales que nutre y protege los neumáticos sin siliconas ni derivados del petróleo que dañan el caucho a largo plazo.",
         "tags": ["Base Agua", "Protección UV", "Antioxidante"],
-        "price": "26.80 Bs",
+        "price": "27.80 Bs",
         "stock": [
             {
-                "quantity": 14,
+                "quantity": 15,
                 "capacity": "500ml"
             },
             {
-                "quantity": 5,
+                "quantity": 6,
                 "capacity": "1L"
-            },
-            {
-                "quantity": 1,
-                "capacity": "2.5L"
             }
         ],
         "ingredients": {
@@ -621,97 +588,626 @@
             "content": [
                 "Agua purificada",
                 "Aceite de linaza",
-                "Cera de carnaúba emulsionada",
+                "Cera de carnaúba",
                 "Extracto de romero (antioxidante natural)",
-                "Aceite de naranja",
-                "Glicerina vegetal",
-                "Emulsificantes naturales"
+                "Emulsificantes vegetales"
             ],
             "excluded": [
                 "Sin siliconas",
-                "Sin derivados del petróleo",
+                "Sin petróleo",
                 "Sin disolventes",
-                "Sin parabenos",
                 "Sin PEGs"
             ]
         },
         "ecologicalBenefits": [
             {
                 "icon": "sun",
-                "title": "Protección UV",
-                "description": "Protege los neumáticos de los dañinos rayos UV sin químicos nocivos."
+                "title": "Protección UV Natural",
+                "description": "Protege contra el agrietamiento por rayos UV sin químicos dañinos."
             },
             {
-                "icon": "tree",
-                "title": "Base Vegetal",
-                "description": "Formulado con más del 95% de ingredientes de origen vegetal."
-            },
-            {
-                "icon": "recycle",
-                "title": "Envase Reciclable",
-                "description": "Botella HDPE 100% reciclable con tapón reutilizable."
+                "icon": "droplet",
+                "title": "Base Acuosa",
+                "description": "No contiene disolventes que contaminen el suelo."
             },
             {
                 "icon": "shield",
                 "title": "Seguro para Caucho",
-                "description": "No acelera el deterioro del caucho como los productos con silicona."
+                "description": "Nutre el caucho sin acelerar su degradación como las siliconas."
             },
             {
-                "icon": "water",
-                "title": "Base Agua",
-                "description": "No contiene disolventes que dañan el medio ambiente."
+                "icon": "recycle",
+                "title": "Envase Reciclable",
+                "description": "Botella HDPE totalmente reciclable."
             }
         ],
         "uses": [
             "Aplicar sobre neumáticos limpios y secos",
-            "Usar esponja o aplicador para distribuir uniformemente",
-            "Dejar secar 15-20 minutos",
-            "No requiere pulido",
-            "Reaplicar cada 2-3 semanas",
-            "Evitar aplicar en superficies calientes"
+            "Dejar secar al aire",
+            "No enjuagar",
+            "Reaplicar cada 2-3 lavados"
         ],
         "reviews": [
             {
-                "user": "Ricardo López",
+                "user": "Mario Gómez",
                 "detail": "Mecánico",
-                "comment": "Excelente producto. Protege los neumáticos sin dañarlos como los acondicionadores con silicona. Brillo natural que no es excesivo.",
-                "score": 5
-            },
-            {
-                "user": "Verónica Salas",
-                "detail": "Cliente frecuente",
-                "comment": "Me encanta cómo quedan mis neumáticos. No ese aspecto artificial y grasoso de otros productos. Dura bastante tiempo.",
-                "score": 5
-            },
-            {
-                "user": "Arturo Ríos",
-                "detail": "Dueño de flotilla",
-                "comment": "Buen producto pero el acabado no es tan brillante como nos gustaría para nuestros autos de exhibición. Lo usamos por ser ecológico.",
-                "score": 3
-            },
-            {
-                "user": "Claudia Méndez",
-                "detail": "Cliente nueva",
-                "comment": "No noté mucha diferencia con otros productos más baratos. Es ecológico pero el rendimiento es promedio.",
-                "score": 3
-            },
-            {
-                "user": "José Gutiérrez",
-                "detail": "Detallista profesional",
-                "comment": "Para ser ecológico funciona muy bien. No da ese look mojado que piden algunos clientes, pero protege genuinamente los neumáticos.",
+                "comment": "No deja ese brillo artificial excesivo, pero protege bien los neumáticos.",
                 "score": 4
             },
             {
-                "user": "Luisa Fernández",
-                "detail": "Cliente verificado",
-                "comment": "Lo compré por ser ecológico y me sorprendió lo bien que funciona. Mis neumáticos parecen nuevos y no se resecan como antes.",
+                "user": "Elena Ruiz",
+                "detail": "Cliente frecuente",
+                "comment": "Huele a hierbas frescas en lugar de químicos. Me encanta.",
                 "score": 5
             },
             {
-                "user": "Mario Castro",
+                "user": "Javier Torres",
+                "detail": "Propietario de taller",
+                "comment": "Mis clientes lo prefieren porque no salpica en las llantas como otros productos.",
+                "score": 5
+            },
+            {
+                "user": "Adriana Vargas",
+                "detail": "Cliente verificado",
+                "comment": "Tarda más en secarse que los convencionales, pero vale la pena la espera.",
+                "score": 4
+            },
+            {
+                "user": "Raúl Méndez",
+                "detail": "Entusiasta off-road",
+                "comment": "Protege mis neumáticos en condiciones extremas sin dañarlos.",
+                "score": 5
+            }
+        ],
+        "environmentalImpact": 4,
+        "waterSaving": 3,
+        "idealFor": "Protección natural de neumáticos",
+        "certifications": [
+            {
+                "icon": "tree",
+                "title": "Forest Friendly",
+                "description": "Ingredientes de fuentes sostenibles"
+            },
+            {
+                "icon": "water",
+                "title": "Water Safe",
+                "description": "No contamina cursos de agua"
+            },
+            {
+                "icon": "shield-check",
+                "title": "Ozone Safe",
+                "description": "No daña la capa de ozono"
+            }
+        ]
+    },
+    {
+        "image": "eco-shine.jpg",
+        "title": "EcoShine",
+        "description": "Brillador multiusos ecológico para superficies exteriores del vehículo. Proporciona un brillo duradero y protección contra los elementos sin químicos dañinos.",
+        "tags": ["Multiusos", "Brillo Natural", "Protección Duradera"],
+        "price": "29.90 Bs",
+        "stock": [
+            {
+                "quantity": 14,
+                "capacity": "500ml"
+            },
+            {
+                "quantity": 8,
+                "capacity": "750ml"
+            },
+            {
+                "quantity": 3,
+                "capacity": "1L"
+            }
+        ],
+        "ingredients": {
+            "detail": "Fórmula avanzada para brillo y protección ecológica:",
+            "content": [
+                "Agua desmineralizada",
+                "Aceite de coco hidrolizado",
+                "Cera de candelilla",
+                "Extracto de bambú",
+                "Aceite esencial de limón"
+            ],
+            "excluded": [
+                "Sin siliconas",
+                "Sin parafinas",
+                "Sin PEGs",
+                "Sin fragancias sintéticas"
+            ]
+        },
+        "ecologicalBenefits": [
+            {
+                "icon": "sun",
+                "title": "Protección UV",
+                "description": "Filtros UV naturales protegen la pintura sin químicos dañinos."
+            },
+            {
+                "icon": "droplet",
+                "title": "Repelente de Agua",
+                "description": "Crea una barrera hidrofóbica natural."
+            },
+            {
+                "icon": "recycle",
+                "title": "Envase Biodegradable",
+                "description": "Botella hecha de materiales vegetales compostables."
+            },
+            {
+                "icon": "flower1",
+                "title": "Aromaterapia",
+                "description": "Aceites esenciales que mejoran la experiencia de lavado."
+            },
+            {
+                "icon": "shield",
+                "title": "Seguro para Todos los Materiales",
+                "description": "Puede usarse en plásticos, metales y pintura sin dañarlos."
+            }
+        ],
+        "uses": [
+            "Aplicar después del lavado",
+            "Usar en superficies secas",
+            "Extender con paño de microfibra",
+            "No requiere enjuague",
+            "Ideal para pintura, plásticos y cromados"
+        ],
+        "reviews": [
+            {
+                "user": "Carlos Andrés",
+                "detail": "Detallista profesional",
+                "comment": "El mejor brillador ecológico que he usado. El brillo es espectacular.",
+                "score": 5
+            },
+            {
+                "user": "Mariana Solís",
+                "detail": "Cliente frecuente",
+                "comment": "Deja un olor fresco a limón natural que dura días.",
+                "score": 5
+            },
+            {
+                "user": "Fernando Ríos",
+                "detail": "Propietario de flotilla",
+                "comment": "Mis vehículos lucen como nuevos con este producto. Vale cada boliviano.",
+                "score": 5
+            },
+            {
+                "user": "Lucía Mendoza",
+                "detail": "Cliente verificado",
+                "comment": "Un poco caro, pero la botella rinde mucho.",
+                "score": 4
+            },
+            {
+                "user": "Roberto Castro",
+                "detail": "Entusiasta de autos clásicos",
+                "comment": "Protege mi pintura original sin alterar su acabado.",
+                "score": 5
+            },
+            {
+                "user": "Sofía Vargas",
+                "detail": "Cliente nueva",
+                "comment": "No brilla tanto como los químicos convencionales, pero prefiero algo natural.",
+                "score": 4
+            },
+            {
+                "user": "Diego López",
+                "detail": "Mecánico",
+                "comment": "Excelente para dar brillo rápido a vehículos en el taller.",
+                "score": 5
+            }
+        ],
+        "environmentalImpact": 5,
+        "waterSaving": 4,
+        "idealFor": "Brillo y protección ecológica",
+        "certifications": [
+            {
+                "icon": "award",
+                "title": "Cradle to Cradle",
+                "description": "Certificación de economía circular"
+            },
+            {
+                "icon": "leaf",
+                "title": "USDA Biobased",
+                "description": "Contenido biobasado certificado"
+            },
+            {
+                "icon": "recycle",
+                "title": "Ocean Safe",
+                "description": "No daña la vida marina"
+            }
+        ]
+    },
+    {
+        "image": "natural-wash.jpg",
+        "title": "NaturalWash",
+        "description": "Jabón líquido concentrado para lavado manual de vehículos. Formulado con ingredientes vegetales que limpian profundamente sin dañar la cera o selladores.",
+        "tags": ["Concentrado", "pH Balanceado", "Vegano"],
+        "price": "21.50 Bs",
+        "stock": [
+            {
+                "quantity": 25,
+                "capacity": "500ml"
+            },
+            {
+                "quantity": 12,
+                "capacity": "1L"
+            }
+        ],
+        "ingredients": {
+            "detail": "Fórmula concentrada para un lavado seguro:",
+            "content": [
+                "Agua purificada",
+                "Tensioactivos de coco",
+                "Glicerina vegetal",
+                "Extracto de algas marinas",
+                "Aceite esencial de eucalipto"
+            ],
+            "excluded": [
+                "Sin sulfatos",
+                "Sin EDTA",
+                "Sin colorantes",
+                "Sin conservantes sintéticos"
+            ]
+        },
+        "ecologicalBenefits": [
+            {
+                "icon": "water",
+                "title": "Ahorro de Agua",
+                "description": "Formula concentrada que requiere menos producto por lavado."
+            },
+            {
+                "icon": "leaf",
+                "title": "Biodegradable Rápido",
+                "description": "Se descompone en 21 días sin residuos tóxicos."
+            },
+            {
+                "icon": "shield",
+                "title": "Seguro para Cerámica",
+                "description": "No daña tratamientos cerámicos ni selladores."
+            },
+            {
+                "icon": "recycle",
+                "title": "Envase Recargable",
+                "description": "Sistema de recarga disponible para reducir residuos."
+            },
+            {
+                "icon": "droplet",
+                "title": "Baja Espuma",
+                "description": "Diseñado para usar menos agua en el enjuague."
+            }
+        ],
+        "uses": [
+            "Diluir 10ml en 5L de agua",
+            "Usar con guante de lavado o esponja",
+            "Enjuagar abundantemente",
+            "Ideal para lavado manual"
+        ],
+        "reviews": [
+            {
+                "user": "Andrea Morales",
+                "detail": "Cliente frecuente",
+                "comment": "Rinde muchísimo. Un frasco me dura meses lavando semanalmente.",
+                "score": 5
+            },
+            {
+                "user": "José Luis",
+                "detail": "Propietario de taller",
+                "comment": "Mis clientes con tratamientos cerámicos lo prefieren porque no los daña.",
+                "score": 5
+            },
+            {
+                "user": "Daniela Castro",
+                "detail": "Cliente verificado",
+                "comment": "No hace tanta espuma como otros jabones, pero limpia igual de bien.",
+                "score": 4
+            },
+            {
+                "user": "Roberto Sánchez",
                 "detail": "Entusiasta de autos",
-                "comment": "No cumple mis expectativas. El brillo desaparece después de unos días y no protege tanto como productos convencionales. Buena iniciativa ecológica pero necesita mejorar.",
-                "score": 2
+                "comment": "Perfecto para lavados frecuentes sin quitar la cera.",
+                "score": 5
+            },
+            {
+                "user": "María Fernández",
+                "detail": "Nueva cliente",
+                "comment": "El olor a eucalipto es muy refrescante durante el lavado.",
+                "score": 5
+            },
+            {
+                "user": "Carlos Ruiz",
+                "detail": "Detallista",
+                "comment": "Excelente para lavado de motores y partes delicadas.",
+                "score": 5
+            },
+            {
+                "user": "Lucía Gómez",
+                "detail": "Cliente ocasional",
+                "comment": "No quita manchas muy difíciles, pero para mantenimiento es perfecto.",
+                "score": 4
+            }
+        ],
+        "environmentalImpact": 5,
+        "waterSaving": 5,
+        "idealFor": "Lavado manual ecológico",
+        "certifications": [
+            {
+                "icon": "flower1",
+                "title": "Ecocert",
+                "description": "Certificación para productos ecológicos"
+            },
+            {
+                "icon": "check-circle",
+                "title": "Vegan Society",
+                "description": "Certificado vegano"
+            },
+            {
+                "icon": "water",
+                "title": "EU Ecolabel",
+                "description": "Cumple con estándares ecológicos europeos"
+            }
+        ]
+    },
+    {
+        "image": "pure-clean.jpg",
+        "title": "PureClean",
+        "description": "Limpiador desinfectante multiusos para interiores. Elimina bacterias y virus usando ingredientes naturales aprobados por la EPA como desinfectantes.",
+        "tags": ["Desinfectante", "Multiusos", "Aroma Natural"],
+        "price": "26.80 Bs",
+        "stock": [
+            {
+                "quantity": 18,
+                "capacity": "500ml"
+            },
+            {
+                "quantity": 9,
+                "capacity": "750ml"
+            },
+            {
+                "quantity": 4,
+                "capacity": "1L"
+            }
+        ],
+        "ingredients": {
+            "detail": "Fórmula desinfectante natural:",
+            "content": [
+                "Agua purificada",
+                "Alcohol etílico de caña de azúcar",
+                "Ácido cítrico",
+                "Aceite esencial de tomillo",
+                "Aceite esencial de árbol de té"
+            ],
+            "excluded": [
+                "Sin cloro",
+                "Sin amoníaco",
+                "Sin triclosán",
+                "Sin ftalatos"
+            ]
+        },
+        "ecologicalBenefits": [
+            {
+                "icon": "shield-plus",
+                "title": "Desinfectante Natural",
+                "description": "Elimina el 99.9% de bacterias con ingredientes vegetales."
+            },
+            {
+                "icon": "person-heart",
+                "title": "Seguro para Niños",
+                "description": "No tóxico y seguro para áreas donde hay niños."
+            },
+            {
+                "icon": "recycle",
+                "title": "Envase Reciclable",
+                "description": "Botella y atomizador 100% reciclables."
+            },
+            {
+                "icon": "flower2",
+                "title": "Aromaterapia",
+                "description": "Aceites esenciales con propiedades antimicrobianas."
+            },
+            {
+                "icon": "droplet",
+                "title": "Sin Residuos",
+                "description": "No deja película pegajosa en superficies."
+            }
+        ],
+        "uses": [
+            "Rociar sobre superficies",
+            "Dejar actuar 30 segundos",
+            "Limpiar con paño",
+            "No requiere enjuague",
+            "Ideal para volantes, palancas y paneles"
+        ],
+        "reviews": [
+            {
+                "user": "Laura González",
+                "detail": "Madre de familia",
+                "comment": "Perfecto para limpiar las sillitas de los niños. Me da tranquilidad que no sea tóxico.",
+                "score": 5
+            },
+            {
+                "user": "Pedro Martínez",
+                "detail": "Conductor de Uber",
+                "comment": "Mis pasajeros aprecian que desinfecte el auto entre viajes sin olores fuertes.",
+                "score": 5
+            },
+            {
+                "user": "Sofía Ramírez",
+                "detail": "Alérgica a químicos",
+                "comment": "El único desinfectante que no me causa migrañas. Funciona muy bien.",
+                "score": 5
+            },
+            {
+                "user": "Carlos Herrera",
+                "detail": "Detallista profesional",
+                "comment": "No es tan rápido como los químicos fuertes, pero es más seguro.",
+                "score": 4
+            },
+            {
+                "user": "Ana López",
+                "detail": "Cliente frecuente",
+                "comment": "El olor a tomillo es muy agradable y relajante.",
+                "score": 5
+            },
+            {
+                "user": "Miguel Castro",
+                "detail": "Propietario de flotilla",
+                "comment": "Lo uso en todos mis vehículos. Excelente relación calidad-precio.",
+                "score": 5
+            },
+            {
+                "user": "Daniela Méndez",
+                "detail": "Cliente nueva",
+                "comment": "Efectivo contra olores pero no tanto contra manchas difíciles.",
+                "score": 4
+            }
+        ],
+        "environmentalImpact": 4,
+        "waterSaving": 3,
+        "idealFor": "Desinfección natural de interiores",
+        "certifications": [
+            {
+                "icon": "shield-check",
+                "title": "EPA List N",
+                "description": "Aprobado como desinfectante efectivo"
+            },
+            {
+                "icon": "flower1",
+                "title": "Organic Materials Review Institute",
+                "description": "Certificado para uso orgánico"
+            },
+            {
+                "icon": "heart",
+                "title": "Asthma & Allergy Friendly",
+                "description": "Certificado por Asthma and Allergy Foundation"
+            }
+        ]
+    },
+    {
+        "image": "bio-wash.jpg",
+        "title": "BioWash",
+        "description": "Limpiavidrios y multiusos concentrado con probióticos que continúan limpiando después de la aplicación. Formula innovadora que reduce la necesidad de limpieza frecuente.",
+        "tags": ["Con Probioticos", "Antivaho", "Multisuperficies"],
+        "price": "23.40 Bs",
+        "stock": [
+            {
+                "quantity": 20,
+                "capacity": "500ml"
+            },
+            {
+                "quantity": 11,
+                "capacity": "750ml"
+            }
+        ],
+        "ingredients": {
+            "detail": "Tecnología probiótica para limpieza continua:",
+            "content": [
+                "Agua purificada",
+                "Cultivos probióticos",
+                "Alcohol vegetal",
+                "Extracto de cítricos",
+                "Glicerina vegetal"
+            ],
+            "excluded": [
+                "Sin amoníaco",
+                "Sin fosfatos",
+                "Sin colorantes",
+                "Sin conservantes sintéticos"
+            ]
+        },
+        "ecologicalBenefits": [
+            {
+                "icon": "bug",
+                "title": "Tecnología Probiótica",
+                "description": "Los probióticos continúan limpiando después de la aplicación."
+            },
+            {
+                "icon": "cloud-sun",
+                "title": "Efecto Antivaho",
+                "description": "Reduce la formación de vaho en cristales."
+            },
+            {
+                "icon": "recycle",
+                "title": "Envase Recargable",
+                "description": "Sistema de recarga con menos empaque."
+            },
+            {
+                "icon": "droplet",
+                "title": "Sin Residuos",
+                "description": "No deja marcas o rayas en superficies."
+            },
+            {
+                "icon": "flower1",
+                "title": "Equilibrio Microbiano",
+                "description": "Promueve bacterias beneficiosas en superficies."
+            }
+        ],
+        "uses": [
+            "Rociar sobre superficies",
+            "Limpiar con paño de microfibra",
+            "No requiere enjuague",
+            "Ideal para cristales, plásticos y acrílicos",
+            "Reaplicar cada 2 semanas para mantener probióticos activos"
+        ],
+        "reviews": [
+            {
+                "user": "Gabriela Ríos",
+                "detail": "Cliente frecuente",
+                "comment": "Increíble cómo los cristales se mantienen limpios por más tiempo.",
+                "score": 5
+            },
+            {
+                "user": "Roberto Sánchez",
+                "detail": "Taxista",
+                "comment": "Perfecto para el parabrisas. Reduce el vaho en días lluviosos.",
+                "score": 5
+            },
+            {
+                "user": "María López",
+                "detail": "Madre de familia",
+                "comment": "Me encanta usarlo en los espejos del baño también. Multiusos real.",
+                "score": 5
+            },
+            {
+                "user": "Carlos Fernández",
+                "detail": "Detallista profesional",
+                "comment": "Tecnología innovadora, aunque el precio es algo elevado.",
+                "score": 4
+            },
+            {
+                "user": "Sofía Castro",
+                "detail": "Cliente nueva",
+                "comment": "Al principio no noté la diferencia, pero después de una semana vi los resultados.",
+                "score": 4
+            },
+            {
+                "user": "Diego Morales",
+                "detail": "Propietario de taller",
+                "comment": "Mis clientes aman cómo quedan sus cristales. Producto único.",
+                "score": 5
+            },
+            {
+                "user": "Andrea Méndez",
+                "detail": "Cliente verificado",
+                "comment": "No huele fuerte como otros limpiadores. Muy agradable.",
+                "score": 5
+            }
+        ],
+        "environmentalImpact": 5,
+        "waterSaving": 4,
+        "idealFor": "Limpieza prolongada con probióticos",
+        "certifications": [
+            {
+                "icon": "shield-plus",
+                "title": "EPA Safer Choice",
+                "description": "Reconocido como producto más seguro"
+            },
+            {
+                "icon": "lightbulb",
+                "title": "Innovación Sostenible",
+                "description": "Premio a innovación en productos ecológicos"
+            },
+            {
+                "icon": "flower1",
+                "title": "Cradle to Cradle",
+                "description": "Certificación de diseño circular"
             }
         ]
     }
