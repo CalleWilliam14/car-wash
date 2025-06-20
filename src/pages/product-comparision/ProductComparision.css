@@ -1,0 +1,22 @@
+.table-responsive {
+  overflow-x: auto;
+
+  @media (max-width: 780px) {
+    overflow-y: auto;
+  }
+}
+
+.customTable {
+  table-layout: fixed;
+
+  @media (max-width: 780px) {
+    table-layout: auto;
+  }
+}
+
+.table thead th {
+  position: sticky;
+  top: 0;
+  background-color: white; /* Or any other background color */
+  z-index: 1;
+}

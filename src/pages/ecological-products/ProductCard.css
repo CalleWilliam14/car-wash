@@ -1,0 +1,13 @@
+.cardContent {
+  padding: 4%;
+  background: #e5e5e5;
+}
+
+.tags ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: #166534;
+}

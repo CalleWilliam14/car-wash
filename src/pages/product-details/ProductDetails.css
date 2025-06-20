@@ -1,0 +1,25 @@
+/* Oculta los botones en todos los inputs type="number" */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Para Firefox */
+input[type="number"] {
+  appearance: textfield;
+  /* -moz-appearance: textfield; */
+}
+
+.customTab .nav-link {
+  color: #737373 !important;
+  font-weight: bold;
+}
+
+.customTab .nav-link.active {
+  color: #000 !important;
+}
+
+.customTab .nav-link:hover {
+  color: #555 !important;
+}

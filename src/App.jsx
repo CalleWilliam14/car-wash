@@ -17,6 +17,9 @@ import ProcessPage from './components/Galeria/Proceso/ProcessPage';
 import MapaInteractivoPage from './components/Ubicacion/MapaInteractivo/MapaInteractivoPage';
 import DetallesDeLocalizacionPage from './components/Ubicacion/DetallesDeLocalizacion/DetallesDeLocalizacionPage';
 import HorariosDeAtencionPage from './components/Ubicacion/HorariosDeAtencion/HorariosDeAtencionPage';
+import EcologicalProducts from './pages/ecological-products/EcologicalProducts'
+import ProductDetails from './pages/product-details/ProductDetails'
+import ProductComparision from './pages/product-comparision/ProductComparision';
 
 import ChatBot from './components/ChatBot/ChatBot';
 import Calendar from './pages/Calendar'
@@ -47,7 +50,9 @@ function App() {
         <Route path="/ubicacion" element={<MapaInteractivoPage />} />
         <Route path="/detalles" element={<DetallesDeLocalizacionPage />} />
         <Route path="/horarios" element={<HorariosDeAtencionPage />} />
-
+        <Route path='/productos-ecologicos' element={<EcologicalProducts />} />
+        <Route path='/productos-ecologicos/:id' element={<ProductDetails />} />
+        <Route path='/comparar-productos' element={<ProductComparision />} />
         <Route path="/reserva" element={<Calendar />} />
         <Route path="/booking" element={<Booking />} />
         <Route path="/payment" element={<Payment />} />
